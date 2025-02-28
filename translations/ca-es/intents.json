@@ -1,20 +1,20 @@
 {
-  "WhenWereYouBorn.intent": [
-    "quan vas néixer",
-    "quan et van crear"
-  ],
-  "WhereWereYouBorn.intent": [
-    "on vas néixer",
-    "on te van crear"
-  ],
-  "WhoMadeYou.intent": [
-    "qui t'ha fet",
-    "qui te va fer"
-  ],
-  "WhatAreYou.intent": [
-    "què eres"
-  ],
-  "WhoAreYou.intent": [
-    "qui ets"
-  ]
+    "WhereWereYouBorn.intent": [
+        "on te van crear",
+        "on vas néixer"
+    ],
+    "WhenWereYouBorn.intent": [
+        "quan et van crear",
+        "quan vas néixer"
+    ],
+    "WhoMadeYou.intent": [
+        "qui t'ha fet",
+        "qui te va fer"
+    ],
+    "WhoAreYou.intent": [
+        "qui ets"
+    ],
+    "WhatAreYou.intent": [
+        "què eres"
+    ]
 }

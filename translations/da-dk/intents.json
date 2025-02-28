@@ -1,20 +1,20 @@
 {
-  "WhenWereYouBorn.intent": [
-    "hvornår er du født",
-    "hvornår (blev|er) du (skabt|lavet|programmeret|opfundet)"
-  ],
-  "WhereWereYouBorn.intent": [
-    "hvor er du født",
-    "hvor (blev|er)  du (skabt|lavet|programmeret|opfundet)"
-  ],
-  "WhoMadeYou.intent": [
-    "hvem (har|)(skabte||skabt|lavede|lavet|programmerede|programeret|opfandt|opfundet|byggede|bygget) dig",
-    "hvem er du (skabt|lavet|programmeret|opfundet) af"
-  ],
-  "WhatAreYou.intent": [
-    "hvad er du"
-  ],
-  "WhoAreYou.intent": [
-    "hvem er du"
-  ]
+    "WhereWereYouBorn.intent": [
+        "hvor (blev|er) du (skabt|lavet|programmeret|opfundet)",
+        "hvor er du født"
+    ],
+    "WhenWereYouBorn.intent": [
+        "hvornår (blev|er) du (skabt|lavet|programmeret|opfundet)",
+        "hvornår er du født"
+    ],
+    "WhoMadeYou.intent": [
+        "hvem (har|)(skabte||skabt|lavede|lavet|programmerede|programeret|opfandt|opfundet|byggede|bygget) dig",
+        "hvem er du (skabt|lavet|programmeret|opfundet) af"
+    ],
+    "WhoAreYou.intent": [
+        "hvem er du"
+    ],
+    "WhatAreYou.intent": [
+        "hvad er du"
+    ]
 }

@@ -1,22 +1,22 @@
 {
-    "WhenWereYouBorn.intent": [
-        "Wann (wurdest|bist) du geboren",
-        "wann wurdest du erschaffen"
-    ],
     "WhereWereYouBorn.intent": [
         "Wo (wurdest|bist) du geboren",
         "wo wurdest du erschaffen"
     ],
+    "WhenWereYouBorn.intent": [
+        "Wann (wurdest|bist) du geboren",
+        "wann wurdest du erschaffen"
+    ],
     "WhoMadeYou.intent": [
-        "wer hat dich gemacht",
         "von wem wurdest du gemacht",
         "wer hat dich erschaffen",
-        "wer hat dich gebaut"
-    ],
-    "WhatAreYou.intent": [
-        "was bist du"
+        "wer hat dich gebaut",
+        "wer hat dich gemacht"
     ],
     "WhoAreYou.intent": [
         "wer bist du"
+    ],
+    "WhatAreYou.intent": [
+        "was bist du"
     ]
 }

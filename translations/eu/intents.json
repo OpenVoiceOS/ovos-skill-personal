@@ -1,20 +1,20 @@
 {
-    "WhenWereYouBorn.intent": [
-        "noiz (sortu|egin|programatu|asmatu) zintuzten?",
-        "noiz jaio zinen?"
-    ],
     "WhereWereYouBorn.intent": [
-        "non (sortu|egin|programatu|asmatu) zintuzten?",
-        "non jaio zinen?"
+        "non (sortu|egin|programatu|asmatu) zintuzten",
+        "non jaio zinen"
+    ],
+    "WhenWereYouBorn.intent": [
+        "noiz (sortu|egin|programatu|asmatu) zintuzten",
+        "noiz jaio zinen"
     ],
     "WhoMadeYou.intent": [
-        "nork (sortu|egin|programatu|asmatu|eraiki) zintuen?",
-        "nor izan zen (sortu|egin|programatu|asmatu) zintuena?"
-    ],
-    "WhatAreYou.intent": [
-        "zer zara zu?"
+        "nor izan zen (sortu|egin|programatu|asmatu) zintuena",
+        "nork (sortu|egin|programatu|asmatu|eraiki) zintuen"
     ],
     "WhoAreYou.intent": [
-        "nor zara zu?"
+        "nor zara zu"
+    ],
+    "WhatAreYou.intent": [
+        "zer zara zu"
     ]
 }

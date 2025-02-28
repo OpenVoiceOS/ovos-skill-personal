@@ -1,20 +1,20 @@
 {
-  "WhenWereYouBorn.intent": [
-    "quando sei (nato|nata)",
-    "quando sei (stato|stata) (creato|creata|fatto|fatta|programmato|programmata|progettato|progettata|inventato|inventata)"
-  ],
-  "WhereWereYouBorn.intent": [
-    "dove sei (nato|nata)",
-    "dove sei (stato|stata) (creato|creata|fatto|fatta|programmato|programmata|progettato|progettata|inventato|inventata)"
-  ],
-  "WhoMadeYou.intent": [
-    "chi ti ha (creato|creata|fatto|fatta|programmato|programmata|progettato|progettata|inventato|inventata|costruito|costruita)",
-    "da chi sei (stato|stata) (creato|creata|fatto|fatta|programmato|programmata|progettato|progettata|inventato|inventata|costruito|costruita)"
-  ],
-  "WhatAreYou.intent": [
-    "che cosa sei"
-  ],
-  "WhoAreYou.intent": [
-    "chi sei"
-  ]
+    "WhereWereYouBorn.intent": [
+        "dove sei (nato|nata)",
+        "dove sei (stato|stata) (creato|creata|fatto|fatta|programmato|programmata|progettato|progettata|inventato|inventata)"
+    ],
+    "WhenWereYouBorn.intent": [
+        "quando sei (nato|nata)",
+        "quando sei (stato|stata) (creato|creata|fatto|fatta|programmato|programmata|progettato|progettata|inventato|inventata)"
+    ],
+    "WhoMadeYou.intent": [
+        "chi ti ha (creato|creata|fatto|fatta|programmato|programmata|progettato|progettata|inventato|inventata|costruito|costruita)",
+        "da chi sei (stato|stata) (creato|creata|fatto|fatta|programmato|programmata|progettato|progettata|inventato|inventata|costruito|costruita)"
+    ],
+    "WhoAreYou.intent": [
+        "chi sei"
+    ],
+    "WhatAreYou.intent": [
+        "che cosa sei"
+    ]
 }

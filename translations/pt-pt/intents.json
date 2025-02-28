@@ -1,20 +1,20 @@
 {
-  "WhenWereYouBorn.intent": [
-    "Quando é que (você nasceu|tu nasceste)?",
-    "Quando é que (você foi|tu foste) (criado|programado|inventado)?"
-  ],
-  "WhereWereYouBorn.intent": [
-    "Onde é que (você nasceu|tu nasceste)?",
-    "Onde é que (você foi|tu foste) (criado|feito|programado|inventado)?"
-  ],
-  "WhoMadeYou.intent": [
-    "Quem é que (o|a|te) criou?",
-    "Quem é que (o|a|te) (criou|fez|programou|inventou)?"
-  ],
-  "WhatAreYou.intent": [
-    "O que é (tu|você) (és|é)?"
-  ],
-  "WhoAreYou.intent": [
-    "Quem (és|é) (tu|você)?"
-  ]
+    "WhereWereYouBorn.intent": [
+        "Onde é que (você foi|tu foste) (criado|feito|programado|inventado)",
+        "Onde é que (você nasceu|tu nasceste)"
+    ],
+    "WhenWereYouBorn.intent": [
+        "Quando é que (você foi|tu foste) (criado|programado|inventado)",
+        "Quando é que (você nasceu|tu nasceste)"
+    ],
+    "WhoMadeYou.intent": [
+        "Quem é que (o|a|te) (criou|fez|programou|inventou)",
+        "Quem é que (o|a|te) criou"
+    ],
+    "WhoAreYou.intent": [
+        "Quem (és|é) (tu|você)"
+    ],
+    "WhatAreYou.intent": [
+        "O que (é que|) (tu|você) (és|é)"
+    ]
 }

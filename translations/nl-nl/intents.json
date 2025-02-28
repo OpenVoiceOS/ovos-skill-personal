@@ -1,22 +1,22 @@
 {
-    "WhenWereYouBorn.intent": [
-        "wanneer ben je geboren",
-        "wanneer ben je gecre\u00eberd"
-    ],
     "WhereWereYouBorn.intent": [
         "waar ben je geboren",
-        "waar ben je gecre\u00eberd"
+        "waar ben je gecreëerd"
+    ],
+    "WhenWereYouBorn.intent": [
+        "wanneer ben je geboren",
+        "wanneer ben je gecreëerd"
     ],
     "WhoMadeYou.intent": [
-        "wie heeft je gemaakt",
         "door wie ben je gemaakt",
-        "wie maakte je",
-        "wie heeft je gebouwd"
-    ],
-    "WhatAreYou.intent": [
-        "wat ben je"
+        "wie heeft je gebouwd",
+        "wie heeft je gemaakt",
+        "wie maakte je"
     ],
     "WhoAreYou.intent": [
         "wie ben je"
+    ],
+    "WhatAreYou.intent": [
+        "wat ben je"
     ]
 }

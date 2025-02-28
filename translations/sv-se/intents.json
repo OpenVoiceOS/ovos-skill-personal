@@ -1,22 +1,22 @@
 {
-    "WhenWereYouBorn.intent": [
-        "n\u00e4r \u00e4r du f\u00f6dd",
-        "n\u00e4r \u00e4r du skapad"
-    ],
     "WhereWereYouBorn.intent": [
-        "var \u00e4r du f\u00f6dd",
-        "var \u00e4r du skapad"
+        "var är du född",
+        "var är du skapad"
+    ],
+    "WhenWereYouBorn.intent": [
+        "när är du född",
+        "när är du skapad"
     ],
     "WhoMadeYou.intent": [
+        "vem byggde dig",
         "vem har skapat dig",
-        "vem skapades du av",
         "vem skapade dig",
-        "vem byggde dig"
-    ],
-    "WhatAreYou.intent": [
-        "vad \u00e4r du"
+        "vem skapades du av"
     ],
     "WhoAreYou.intent": [
-        "vem \u00e4r du"
+        "vem är du"
+    ],
+    "WhatAreYou.intent": [
+        "vad är du"
     ]
 }

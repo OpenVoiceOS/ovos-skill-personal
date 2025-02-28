@@ -1,20 +1,20 @@
 {
-    "WhenWereYouBorn.intent": [
-        "when were you born",
-        "when were you (created|made|programmed|invented)"
-    ],
     "WhereWereYouBorn.intent": [
-        "where were you born",
-        "where were you (created|made|programmed|invented)"
+        "where were you (created|made|programmed|invented)",
+        "where were you born"
+    ],
+    "WhenWereYouBorn.intent": [
+        "when were you (created|made|programmed|invented)",
+        "when were you born"
     ],
     "WhoMadeYou.intent": [
         "who (created|made|programmed|invented|built) you",
         "who were you (created|made|programmed|invented) by"
     ],
-    "WhatAreYou.intent": [
-        "what are you"
-    ],
     "WhoAreYou.intent": [
         "who are you"
+    ],
+    "WhatAreYou.intent": [
+        "what are you"
     ]
 }

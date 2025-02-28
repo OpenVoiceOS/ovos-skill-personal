@@ -1,22 +1,22 @@
 {
-    "WhenWereYouBorn.intent": [
-        "mikor sz\u00fclett\u00e9l",
-        "Mikor j\u00f6tt\u00e9l l\u00e9tre"
-    ],
     "WhereWereYouBorn.intent": [
-        "Hol j\u00f6tt\u00e9l l\u00e9tre",
-        "hol sz\u00fclett\u00e9l"
+        "Hol jöttél létre",
+        "hol születtél"
+    ],
+    "WhenWereYouBorn.intent": [
+        "Mikor jöttél létre",
+        "mikor születtél"
     ],
     "WhoMadeYou.intent": [
-        "Ki hozta l\u00e9tre \u00d6nt",
-        "ki volt\u00e1l",
-        "Ki tett t\u00e9ged",
-        "Ki \u00e9p\u00edtett t\u00e9ged"
-    ],
-    "WhatAreYou.intent": [
-        "mi vagy te"
+        "Ki hozta létre Önt",
+        "Ki tett téged",
+        "Ki épített téged",
+        "ki voltál"
     ],
     "WhoAreYou.intent": [
         "Ki vagy te"
+    ],
+    "WhatAreYou.intent": [
+        "mi vagy te"
     ]
 }
