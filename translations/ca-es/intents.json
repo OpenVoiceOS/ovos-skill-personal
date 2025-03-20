@@ -9,12 +9,12 @@
     "quan vas començar a existir"
   ],
   "WhereWereYouBorn.intent": [
-    "on vas néixer",
-    "on vas ser (creat|fet|programat|inventat|construït|dissenyat)",
-    "d'on vens",
-    "on vas ser desenvolupat",
-    "on es va publicar la teva primera versió",
-    "on vas tenir el teu origen"
+    "[doncs] [d']on vas néixer",
+    "[d']on vas ser (creat|fet|programat|inventat|construït|dissenyat)",
+    "[doncs] [d']on vens",
+    "[d']on vas ser desenvolupat",
+    "[d']on es va publicar la teva primera versió",
+    "[d']on vas tenir el teu origen"
   ],
   "WhoMadeYou.intent": [
     "qui et va (crear|fer|programar|inventar|dissenyar|construir|fabricar)",
