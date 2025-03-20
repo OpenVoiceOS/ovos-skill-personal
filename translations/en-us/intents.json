@@ -1,20 +1,43 @@
 {
     "WhenWereYouBorn.intent": [
-        "when were you born",
-        "when were you (created|made|programmed|invented)"
+      "when were you born",
+      "when were you (created|made|programmed|invented|built|designed)",
+      "what is your date of birth",
+      "when did you come into existence",
+      "when did you first appear",
+      "when was your first version released",
+      "when did you start existing"
     ],
     "WhereWereYouBorn.intent": [
-        "where were you born",
-        "where were you (created|made|programmed|invented)"
+      "where were you born",
+      "where were you (created|made|programmed|invented|built|designed)",
+      "where do you come from",
+      "where were you developed",
+      "where was your first version released",
+      "where did you originate"
     ],
     "WhoMadeYou.intent": [
-        "who (created|made|programmed|invented|built) you",
-        "who were you (created|made|programmed|invented) by"
+      "Who (created|made|programmed|invented|designed|built|manufactured) you",
+      "Who has (created|made|programmed|invented|designed|built|manufactured) you",
+      "Who is your (creator|designer|builder|maker)",
+      "Who were you (created|made|programmed|invented|designed|built|manufactured) by",
+      "By whom were you (created|made|programmed|invented|designed|built|manufactured)"
     ],
     "WhatAreYou.intent": [
-        "what are you"
+        "what are you",
+      "what is your (classification|species|nature)",
+      "what do you classify as",
+      "[how would you] define yourself",
+      "what [type of] (creature|person|thing|being) are you",
+      "what exactly are you",
+      "[can you] describe what you are"
     ],
     "WhoAreYou.intent": [
-        "who are you"
+        "who are you",
+      "what is your name",
+      "can you introduce yourself",
+      "tell me about yourself",
+      "who do you identify as",
+      "how do you describe yourself"
     ]
 }
