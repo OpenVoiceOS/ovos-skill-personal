@@ -1,12 +1,25 @@
 # Changelog
 
-## [0.1.10a1](https://github.com/OpenVoiceOS/ovos-skill-personal/tree/0.1.10a1) (2025-01-25)
+## [0.1.12a1](https://github.com/OpenVoiceOS/ovos-skill-personal/tree/0.1.12a1) (2025-03-20)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-personal/compare/0.1.9...0.1.10a1)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-personal/compare/0.1.11a2...0.1.12a1)
 
 **Merged pull requests:**
 
-- fix:packaging [\#55](https://github.com/OpenVoiceOS/ovos-skill-personal/pull/55) ([JarbasAl](https://github.com/JarbasAl))
+- fix: translations [\#61](https://github.com/OpenVoiceOS/ovos-skill-personal/pull/61) ([JarbasAl](https://github.com/JarbasAl))
+- feat: improve intents [\#60](https://github.com/OpenVoiceOS/ovos-skill-personal/pull/60) ([JarbasAl](https://github.com/JarbasAl))
+
+## [0.1.11a2](https://github.com/OpenVoiceOS/ovos-skill-personal/tree/0.1.11a2) (2025-02-27)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-personal/compare/0.1.11a1...0.1.11a2)
+
+## [0.1.11a1](https://github.com/OpenVoiceOS/ovos-skill-personal/tree/0.1.11a1) (2025-01-25)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-personal/compare/0.1.10...0.1.11a1)
+
+**Merged pull requests:**
+
+- fix automations [\#57](https://github.com/OpenVoiceOS/ovos-skill-personal/pull/57) ([JarbasAl](https://github.com/JarbasAl))
 
 
 

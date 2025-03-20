@@ -1,20 +1,43 @@
 {
   "WhenWereYouBorn.intent": [
     "quan vas néixer",
-    "quan et van crear"
+    "quan vas ser (creat|fet|programat|inventat|construït|dissenyat)",
+    "quin és el teu dia de naixement",
+    "quan vas entrar en existència",
+    "quan vas aparèixer per primera vegada",
+    "quan es va publicar la teva primera versió",
+    "quan vas començar a existir"
   ],
   "WhereWereYouBorn.intent": [
-    "on vas néixer",
-    "on te van crear"
+    "[doncs] [d']on vas néixer",
+    "[d']on vas ser (creat|fet|programat|inventat|construït|dissenyat)",
+    "[doncs] [d']on vens",
+    "[d']on vas ser desenvolupat",
+    "[d']on es va publicar la teva primera versió",
+    "[d']on vas tenir el teu origen"
   ],
   "WhoMadeYou.intent": [
-    "qui t'ha fet",
-    "qui te va fer"
+    "qui et va (crear|fer|programar|inventar|dissenyar|construir|fabricar)",
+    "qui t'ha (creat|fet|programat|inventat|dissenyat|construït|fabricat)",
+    "qui és el teu (creador|dissenyador|constructor|fabricant|programador)",
+    "per qui vas ser (creat|fet|programat|inventat|dissenyat|construït|fabricat)",
+    "per qui has estat (creat|fet|programat|inventat|dissenyat|construït|fabricat)"
   ],
   "WhatAreYou.intent": [
-    "què eres"
+    "què ets",
+    "quina és la teva (classificació|espècie|naturalesa)",
+    "com et classifiques",
+    "[com et] definiries",
+    "quin tipus de (criatura|persona|cosa|ésser) ets",
+    "què ets exactament",
+    "[pots] descriure què ets"
   ],
   "WhoAreYou.intent": [
-    "qui ets"
+    "qui ets",
+    "quin és el teu nom",
+    "et pots presentar",
+    "parla'm de tu",
+    "amb qui t'identifiques",
+    "com et descrius"
   ]
 }
