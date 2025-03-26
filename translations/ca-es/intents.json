@@ -1,9 +1,10 @@
 {
   "WhenWereYouBorn.intent": [
+    "quan et van (crear|fer|programar|inventar|construir|dissenyar)",
     "quan vas néixer",
     "quan vas ser (creat|fet|programat|inventat|construït|dissenyat)",
     "quin és el teu dia de naixement",
-    "quan vas entrar en existència",
+    "quan vas (néixer|entrar en existència)",
     "quan vas aparèixer per primera vegada",
     "quan es va publicar la teva primera versió",
     "quan vas començar a existir"
