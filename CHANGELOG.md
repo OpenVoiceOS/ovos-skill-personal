@@ -1,12 +1,12 @@
 # Changelog
 
-## [0.1.13a1](https://github.com/OpenVoiceOS/ovos-skill-personal/tree/0.1.13a1) (2025-03-26)
+## [0.1.14a1](https://github.com/OpenVoiceOS/ovos-skill-personal/tree/0.1.14a1) (2025-04-02)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-personal/compare/0.1.12...0.1.13a1)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-personal/compare/0.1.13...0.1.14a1)
 
 **Merged pull requests:**
 
-- fix:improve catalan [\#63](https://github.com/OpenVoiceOS/ovos-skill-personal/pull/63) ([JarbasAl](https://github.com/JarbasAl))
+- adding German translations for new intents [\#65](https://github.com/OpenVoiceOS/ovos-skill-personal/pull/65) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
 
 
 
