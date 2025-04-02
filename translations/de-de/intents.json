@@ -1,22 +1,43 @@
 {
-    "WhenWereYouBorn.intent": [
-        "Wann (wurdest|bist) du geboren",
-        "wann wurdest du erschaffen"
-    ],
-    "WhereWereYouBorn.intent": [
-        "Wo (wurdest|bist) du geboren",
-        "wo wurdest du erschaffen"
-    ],
-    "WhoMadeYou.intent": [
-        "wer hat dich gemacht",
-        "von wem wurdest du gemacht",
-        "wer hat dich erschaffen",
-        "wer hat dich gebaut"
-    ],
-    "WhatAreYou.intent": [
-        "was bist du"
-    ],
-    "WhoAreYou.intent": [
-        "wer bist du"
-    ]
+  "WhenWereYouBorn.intent": [
+    "Wann (wurdest|bist) du geboren",
+    "wann wurdest du (erschaffen|gemacht|programmiert|erfunden|gebaut|entworfen)",
+    "Was ist Dein Geburtsdatum?",
+    "wann bist du entstanden",
+    "wann bist du zum ersten Mal aufgetaucht",
+    "wann wurde  Deine erste Version veröffentlicht",
+    "seit wann existierst du\nseit wann gibt es dich"
+  ],
+  "WhereWereYouBorn.intent": [
+    "Wo (wurdest|bist) du geboren",
+    "wo wurdest du (erschaffen|gemacht|programmiert|erfunden|gebaut|entworfen)",
+    "wo kommst du her",
+    "wo wurdest Du entwickelt",
+    "wo wurde Deine erste Version veröffentlicht",
+    "woher kommst du"
+  ],
+  "WhoMadeYou.intent": [
+    "Wer hat Dich (erschaffen|gemacht|programmiert|erfunden|entworfen|gebaut|hergestellt)",
+    "Wer hat dich (erschaffen|gemacht|programmiert|erfunden|entworfen|gebaut|hergestellt)",
+    "wer hat dich erschaffen",
+    "wer hat dich gebaut",
+    "Von wem wurdest Du (erschaffen|gemacht|programmiert|erfunden|entworfen|gebaut|hergestellt)"
+  ],
+  "WhatAreYou.intent": [
+    "was bist du",
+    "was ist Deine (Klassifikation | Art | Natur)",
+    "als was klassifizierst Du Dich",
+    "[wie würdest Du] Dich selbst definieren",
+    "was für ein [Typ] (Geschöpf | Mensch | Ding | Wesen) bist du",
+    "was genau bist du",
+    "[Kannst du] beschreiben, was du bist"
+  ],
+  "WhoAreYou.intent": [
+    "wer bist du",
+    "wie heißt du",
+    "kannst du dich vorstellen",
+    "erzähl mir von dir",
+    "als wen identifizierst Du dich",
+    "wie beschreibst du dich selbst"
+  ]
 }
