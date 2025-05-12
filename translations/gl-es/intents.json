@@ -3,10 +3,9 @@
     "cando naciches",
     "cando fuches (creado|feito|programado|inventado|construído|deseñado)",
     "cal é a túa data de nacemento",
-    "when did you come into existence",
-    "cando apareciches?",
-    "cando se publicou a túa primeira versión?",
-    "cando comezaches a existir?"
+    "cando apareciches",
+    "cando se publicou a túa primeira versión",
+    "cando comezaches a existir"
   ],
   "WhereWereYouBorn.intent": [
     "onde naciches?",
