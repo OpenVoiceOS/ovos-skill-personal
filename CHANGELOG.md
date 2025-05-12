@@ -1,12 +1,12 @@
 # Changelog
 
-## [0.1.14a1](https://github.com/OpenVoiceOS/ovos-skill-personal/tree/0.1.14a1) (2025-04-02)
+## [0.1.15a1](https://github.com/OpenVoiceOS/ovos-skill-personal/tree/0.1.15a1) (2025-05-12)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-personal/compare/0.1.13...0.1.14a1)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-personal/compare/0.1.14...0.1.15a1)
 
 **Merged pull requests:**
 
-- adding German translations for new intents [\#65](https://github.com/OpenVoiceOS/ovos-skill-personal/pull/65) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
+- gl/translate [\#67](https://github.com/OpenVoiceOS/ovos-skill-personal/pull/67) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
 
 
 
