@@ -3,40 +3,41 @@
     "cando naciches",
     "cando fuches (creado|feito|programado|inventado|construído|deseñado)",
     "cal é a túa data de nacemento",
-    "cando apareciches",
-    "cando se publicou a túa primeira versión",
+    "desde cando existes",
+    "cando apareciches por primeira vez",
+    "cando se lanzou a túa primeira versión",
     "cando comezaches a existir"
   ],
   "WhereWereYouBorn.intent": [
-    "onde naciches?",
+    "onde naciches",
     "onde fuches (creado|feito|programado|inventado|construído|deseñado)",
-    "de onde vés?",
-    "onde fuches desenvolvido?",
-    "onde se publicou a túa primeira versión?",
-    "de onde viñeches?"
+    "de onde vés",
+    "onde fuches desenvolvido",
+    "onde se publicou a túa primeira versión",
+    "de onde viñeches"
   ],
   "WhoMadeYou.intent": [
     "Quen te (creou|fixo|programou|inventou|deseñou|construíu|fabricou)",
-    "Quen te (creou|fixo|programou|inventou|deseñou|construíu|fabricou)?",
-    "Quen é o teu (creador|deseñador|construtor|fabricante)?",
-    null,
+    "Quen te (creou|fixo|programou|inventou|deseñou|construíu|fabricou)",
+    "Quen é o teu (creador|deseñador|construtor|fabricante)",
+    "Por quen fuches (creado|feito|programado|inventado|deseñado|construído|fabricado)",
     "Quen te (creou|fixo|programou|inventou|deseñou|construiu|fabricou)?"
   ],
   "WhatAreYou.intent": [
     "que es?",
     "cal é a túa (clasificación|especie|natureza)?",
     "como te clasificas?",
-    "[podes] definirte",
-    "que tipo de (criatura|persoa|cousa|ser) es?",
-    "Que es exactamente?",
+    "[poderías] definirte",
+    "que tipo de (criatura|persoa|cousa|ser) es",
+    "Que es exactamente",
     "[podes] describir o que es"
   ],
   "WhoAreYou.intent": [
-    "quen es?",
-    "Cal é o teu nome?",
-    "Podes presentarte?",
+    "quen es",
+    "Cal é o teu nome",
+    "Podes presentarte",
     "cóntame algo sobre ti",
-    "con quen te identificas?",
-    "como te describes?"
+    "como te identificas",
+    "como te describes"
   ]
 }
