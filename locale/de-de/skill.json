@@ -1,6 +1,6 @@
 {
   "skill_id": "ovos-skill-personal.openvoiceos",
-  "source": "https://github.com/OpenVoiceOS/skill-ovos-personal",
+  "source": "https://github.com/OpenVoiceOS/ovos-skill-personal",
   "name": "Hintergrund des Assistenten",
   "description": "Erfahre mehr über die Geschichte und Persönlichkeit des Assistenten. Frage nach der „Geburt“ und Herkunft des Sprachassistenten und erhalte einen Einblick in die Community, die diese Open-Source-künstliche Intelligenz fördert.",
   "examples": [
