@@ -1,22 +1,43 @@
 {
-    "WhenWereYouBorn.intent": [
-        "wanneer ben je geboren",
-        "wanneer ben je gecre\u00eberd"
-    ],
-    "WhereWereYouBorn.intent": [
-        "waar ben je geboren",
-        "waar ben je gecre\u00eberd"
-    ],
-    "WhoMadeYou.intent": [
-        "wie heeft je gemaakt",
-        "door wie ben je gemaakt",
-        "wie maakte je",
-        "wie heeft je gebouwd"
-    ],
-    "WhatAreYou.intent": [
-        "wat ben je"
-    ],
-    "WhoAreYou.intent": [
-        "wie ben je"
-    ]
+  "WhenWereYouBorn.intent": [
+    "wanneer ben je geboren",
+    "wanneer ben je (gemaakt|gemaakt|geprogrammeerd|uitgevonden|gebouwd|ontworpen)",
+    "wat is je geboortedatum",
+    "wanneer ben je ontstaan",
+    "wanneer verscheen je voor het eerst",
+    "wanneer werd je eerste versie uitgebracht",
+    "Wanneer ben je ontstaan?"
+  ],
+  "WhereWereYouBorn.intent": [
+    "waar ben je geboren",
+    "waar ben je (gemaakt|geprogrammeerd|uitgevonden|gebouwd|ontworpen)",
+    "waar kom je vandaan",
+    "waar ben je ontwikkeld",
+    "waar werd je eerste versie uitgebracht?",
+    "waar kom je vandaan?"
+  ],
+  "WhoMadeYou.intent": [
+    "Wie heeft je (gemaakt|geprogrammeerd|uitgevonden|ontworpen|gebouwd|gefabriceerd)?",
+    "Wie heeft je (gemaakt|ontworpen|geprogrammeerd|uitgevonden|gebouwd|geproduceerd)?",
+    "Wie is jouw (maker|ontwerper|bouwer)?",
+    "Door wie ben jij (gemaakt|geprogrammeerd|uitgevonden|ontworpen|gebouwd|geproduceerd)?",
+    "Door wie ben je (gemaakt|geprogrammeerd|uitgevonden|ontworpen|gebouwd|geproduceerd)"
+  ],
+  "WhatAreYou.intent": [
+    "wat ben jij",
+    "wat voor soort ben je",
+    "wat ben je voor product",
+    "hoe zou je jezelf definiëren",
+    "wat voor [type] (wezen|persoon|ding|wezen) ben je?",
+    "wat ben je precies",
+    "kun je beschrijven wat je bent"
+  ],
+  "WhoAreYou.intent": [
+    "wie ben je",
+    "hoe heet je",
+    "kan je je(zelf) even voorstellen",
+    "vertel me iets over jezelf",
+    "met wie identificeer jij je?",
+    "hoe beschrijf je jezelf"
+  ]
 }
