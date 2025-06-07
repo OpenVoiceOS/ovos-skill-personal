@@ -1,0 +1,16 @@
+{
+  "skill_id": "ovos-skill-personal.openvoiceos",
+  "source": "https://github.com/OpenVoiceOS/ovos-skill-personal",
+  "name": "Achtergrond van de assistent",
+  "description": "Leer meer over de geschiedenis en persoonlijkheid van de assistent. Vraag naar het ‘ontstaan’ en de afkomst van de spraakassistent en maak kennis met de gemeenschap die deze open source kunstmatige intelligentie ondersteunt.",
+  "examples": [
+    "Wanneer ben je gemaakt?",
+    "Wat ben jij?",
+    "Waar ben je geboren?",
+    "Wie heeft je gemaakt?"
+  ],
+  "tags": [
+    "persoonlijkheid",
+    "persona"
+  ]
+}

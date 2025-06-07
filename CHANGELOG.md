@@ -1,12 +1,20 @@
 # Changelog
 
-## [0.1.17a1](https://github.com/OpenVoiceOS/ovos-skill-personal/tree/0.1.17a1) (2025-05-15)
+## [0.1.18a2](https://github.com/OpenVoiceOS/ovos-skill-personal/tree/0.1.18a2) (2025-06-07)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-personal/compare/0.1.16...0.1.17a1)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-personal/compare/0.1.18a1...0.1.18a2)
 
 **Merged pull requests:**
 
-- fix: standardize skill\_id [\#71](https://github.com/OpenVoiceOS/ovos-skill-personal/pull/71) ([JarbasAl](https://github.com/JarbasAl))
+- nl-nl translation [\#75](https://github.com/OpenVoiceOS/ovos-skill-personal/pull/75) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
+
+## [0.1.18a1](https://github.com/OpenVoiceOS/ovos-skill-personal/tree/0.1.18a1) (2025-06-02)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-personal/compare/0.1.17...0.1.18a1)
+
+**Merged pull requests:**
+
+- gl/translate [\#73](https://github.com/OpenVoiceOS/ovos-skill-personal/pull/73) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
 
 
 
