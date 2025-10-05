@@ -1,12 +1,12 @@
 # Changelog
 
-## [0.1.19a1](https://github.com/OpenVoiceOS/ovos-skill-personal/tree/0.1.19a1) (2025-06-08)
+## [0.1.20a1](https://github.com/OpenVoiceOS/ovos-skill-personal/tree/0.1.20a1) (2025-10-05)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-personal/compare/0.1.18...0.1.19a1)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-personal/compare/0.1.19...0.1.20a1)
 
 **Merged pull requests:**
 
-- fix: compat workshop 7.X.X [\#77](https://github.com/OpenVoiceOS/ovos-skill-personal/pull/77) ([JarbasAl](https://github.com/JarbasAl))
+- Add pt-BR [\#79](https://github.com/OpenVoiceOS/ovos-skill-personal/pull/79) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
 
 
 
