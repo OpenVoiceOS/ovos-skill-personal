@@ -6,8 +6,7 @@
     "quin és el teu dia de naixement",
     "quan vas (néixer|entrar en existència)",
     "quan vas aparèixer per primera vegada",
-    "quan es va publicar la teva primera versió",
-    "quan vas començar a existir"
+    "quan es va publicar la teva primera versió"
   ],
   "WhereWereYouBorn.intent": [
     "[doncs] [d']on vas néixer",
