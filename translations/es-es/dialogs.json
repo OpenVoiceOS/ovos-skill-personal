@@ -1,21 +1,22 @@
 {
-    "who.made.me.dialog": [
-        "La incre\u00edble comunidad y el equipo de {creator}",
-        "Todos en la comunidad y el equipo de {creator}"
-    ],
-    "who.am.i.dialog": [
-        "Mi nombre es {name} y son un asistente personal inteligente",
-        "Soy {name}, una inteligencia artificial de c\u00f3digo abierto."
-    ],
-    "where.was.i.born.dialog": [
-        "Nac\u00ed en {location}"
-    ],
-    "what.am.i.dialog": [
-        "Soy una inteligencia artificial de c\u00f3digo abierto.",
-        "Soy una pieza inteligente de software para comunicarme con otras m\u00e1quinas"
-    ],
-    "when.was.i.born.dialog": [
-        "Nac\u00ed en {year}.",
-        "El {year} es cuando nac\u00ed."
-    ]
+  "who.made.me.dialog": [
+    "La increíble comunidad y el equipo de {creator}",
+    "Todos en la comunidad y el equipo de {creator}"
+  ],
+  "who.am.i.dialog": [
+    "Mi nombre es {name} y son un asistente personal inteligente",
+    "Soy {name}, una inteligencia artificial de código abierto."
+  ],
+  "where.was.i.born.dialog": [
+    "Nací en {location}"
+  ],
+  "what.am.i.dialog": [
+    "Soy una inteligencia artificial de código abierto.",
+    "Soy una pieza inteligente de software para comunicarme con otras máquinas"
+  ],
+  "when.was.i.born.dialog": [
+    "Nací en {year}.",
+    "El {year} es cuando nací.",
+    "{year} es el año en que nací."
+  ]
 }
