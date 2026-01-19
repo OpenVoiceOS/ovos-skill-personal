@@ -19,8 +19,8 @@
   "WhoMadeYou.intent": [
     "Hvem (skabte|lavede|programmerede|opfandt|designede|byggede|fremstillede) dig",
     "Hvem har (skabt|lavet|programmeret|opfundet|designet|bygget|fremstillet) dig",
-    null,
-    null,
+    "hvem skabte dig",
+    "hvem byggede dig",
     "Af hvem blev du (skabt|lavet|programmeret|opfundet|designet|bygget|fremstillet)"
   ],
   "WhatAreYou.intent": [
