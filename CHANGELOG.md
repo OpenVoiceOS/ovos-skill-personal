@@ -1,8 +1,17 @@
 # Changelog
 
-## [0.1.20a3](https://github.com/OpenVoiceOS/ovos-skill-personal/tree/0.1.20a3) (2025-11-17)
+## [0.1.20a4](https://github.com/OpenVoiceOS/ovos-skill-personal/tree/0.1.20a4) (2026-01-19)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-personal/compare/0.1.20a1...0.1.20a3)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-personal/compare/0.1.20a2...0.1.20a4)
+
+**Merged pull requests:**
+
+- pt-BR/translate [\#86](https://github.com/OpenVoiceOS/ovos-skill-personal/pull/86) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
+- da-dk/translate [\#85](https://github.com/OpenVoiceOS/ovos-skill-personal/pull/85) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
+
+## [0.1.20a2](https://github.com/OpenVoiceOS/ovos-skill-personal/tree/0.1.20a2) (2025-11-17)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-personal/compare/0.1.20a1...0.1.20a2)
 
 **Merged pull requests:**
 
