@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.20a5](https://github.com/OpenVoiceOS/ovos-skill-personal/tree/0.1.20a5) (2026-03-09)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-personal/compare/0.1.20a4...0.1.20a5)
+
+**Merged pull requests:**
+
+- Refine French assistant profile locale [\#88](https://github.com/OpenVoiceOS/ovos-skill-personal/pull/88) ([goldyfruit](https://github.com/goldyfruit))
+
 ## [0.1.20a4](https://github.com/OpenVoiceOS/ovos-skill-personal/tree/0.1.20a4) (2026-01-19)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-personal/compare/0.1.20a2...0.1.20a4)
