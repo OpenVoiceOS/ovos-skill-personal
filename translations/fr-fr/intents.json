@@ -1,20 +1,38 @@
 {
   "WhenWereYouBorn.intent": [
     "quand es-tu né",
-    "quand (as-tu été|est-ce que tu as été) (créé|conçu|fabriqué|pensé|fait|assemblé)"
+    "quand as-tu été créé",
+    "quand as-tu été conçu",
+    "quand as-tu été inventé",
+    "quelle est ta date de naissance",
+    "quand es-tu apparu"
   ],
   "WhereWereYouBorn.intent": [
-    "où (est-ce que tu es|es-tu) né",
-    "où as-tu été (créé|conçu|frabriqué|pensé|fait)"
+    "où es-tu né",
+    "où as-tu été créé",
+    "où as-tu été conçu",
+    "d'où viens-tu",
+    "où as-tu été développé"
   ],
   "WhoMadeYou.intent": [
-    "qui t'a (conçu|créé|fabriqué|pensé|fait)",
-    "par qui as-tu été (conçu|créé|fabriqué|pensé|fait)"
+    "qui t'a créé",
+    "qui t'a conçu",
+    "qui t'a fabriqué",
+    "qui est ton créateur",
+    "par qui as-tu été créé"
   ],
   "WhatAreYou.intent": [
-    "qu'est-ce que tu es"
+    "qu'est-ce que tu es",
+    "quelle est ta nature",
+    "comment te définirais-tu",
+    "quel type d'assistant es-tu",
+    "peux-tu te décrire"
   ],
   "WhoAreYou.intent": [
-    "qui es-tu"
+    "qui es-tu",
+    "quel est ton nom",
+    "présente-toi",
+    "parle-moi de toi",
+    "comment te décris-tu"
   ]
 }
