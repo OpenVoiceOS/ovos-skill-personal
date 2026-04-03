@@ -1,0 +1,16 @@
+{
+  "skill_id": "ovos-skill-personal.openvoiceos",
+  "source": "https://github.com/OpenVoiceOS/ovos-skill-personal",
+  "name": "Assistents baggrund",
+  "description": "Lær assistentens historie og personlighed. Spørg om stemmeassistentens 'fødsel' og forældreskab, og få en smagsprøve på det fællesskab, der fremmer denne open source kunstige intelligens.",
+  "examples": [
+    "Hvornår blev du skabt?",
+    "Hvad er du?",
+    "Hvor er du født?",
+    "Hvem har lavet dig?"
+  ],
+  "tags": [
+    "personlighed",
+    "persona"
+  ]
+}

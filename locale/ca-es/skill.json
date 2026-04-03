@@ -1,0 +1,16 @@
+{
+  "skill_id": "ovos-skill-personal.openvoiceos",
+  "source": "https://github.com/OpenVoiceOS/ovos-skill-personal",
+  "name": "Rerefons de l'assistent",
+  "description": "Coneixeu la història i la personalitat de l'assistent. Pregunteu sobre el \"naixement\" i la filiació de l'assistent de veu i feu un tast de la comunitat que fomenta aquesta intel·ligència artificial de codi obert.",
+  "examples": [
+    "Quan et van crear?",
+    "Què ets?",
+    "On vas néixer?",
+    "Qui et va fer?"
+  ],
+  "tags": [
+    "personalitat",
+    "persona"
+  ]
+}
