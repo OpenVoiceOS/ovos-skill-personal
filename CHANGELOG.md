@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.22a1](https://github.com/OpenVoiceOS/ovos-skill-personal/tree/0.1.22a1) (2026-04-03)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-personal/compare/0.1.21a1...0.1.22a1)
+
+**Merged pull requests:**
+
+- fix\(i18n\): normalize locale folders to canonical BCP-47 [\#92](https://github.com/OpenVoiceOS/ovos-skill-personal/pull/92) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [0.1.21a1](https://github.com/OpenVoiceOS/ovos-skill-personal/tree/0.1.21a1) (2026-03-24)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-personal/compare/0.1.20a5...0.1.21a1)
