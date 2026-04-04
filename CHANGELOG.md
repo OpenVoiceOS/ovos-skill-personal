@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.22a2](https://github.com/OpenVoiceOS/ovos-skill-personal/tree/0.1.22a2) (2026-04-04)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-personal/compare/0.1.22a1...0.1.22a2)
+
+**Merged pull requests:**
+
+- ci: modernize GitHub workflows [\#95](https://github.com/OpenVoiceOS/ovos-skill-personal/pull/95) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [0.1.22a1](https://github.com/OpenVoiceOS/ovos-skill-personal/tree/0.1.22a1) (2026-04-03)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-personal/compare/0.1.21a1...0.1.22a1)
