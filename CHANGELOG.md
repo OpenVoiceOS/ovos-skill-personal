@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.23a2](https://github.com/OpenVoiceOS/ovos-skill-personal/tree/0.1.23a2) (2026-04-09)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-personal/compare/0.1.23a1...0.1.23a2)
+
+**Merged pull requests:**
+
+- chore\(ovos-skill-personal\): allow ovos-workshop\<9.0.0 [\#99](https://github.com/OpenVoiceOS/ovos-skill-personal/pull/99) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [0.1.23a1](https://github.com/OpenVoiceOS/ovos-skill-personal/tree/0.1.23a1) (2026-04-04)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-personal/compare/0.1.22a2...0.1.23a1)
