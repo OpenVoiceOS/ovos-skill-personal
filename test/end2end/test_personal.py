@@ -2,9 +2,14 @@
 # Licensed under the Apache License, Version 2.0
 """End-to-end tests for ovos-skill-personal using ovoscope.
 
-Verifies that the four Padatious intents (WhoAreYou, WhatAreYou,
+Verifies that the five Padatious intents (WhoAreYou, WhatAreYou,
 WhenWereYouBorn, WhereWereYouBorn, WhoMadeYou) are matched and the
-corresponding handler fires with the expected bus message sequence.
+corresponding handler fires with the expected bus message sequence,
+across the three supported intent pipelines:
+
+  - padatious   (ovos-padatious-pipeline-plugin-high)
+  - padacioso   (ovos-padacioso-pipeline-plugin-high)
+  - m2v         (ovos-m2v-pipeline-high)
 
 The skill emits non-deterministic ``speak`` content (dialogs contain
 alternative phrasings), so ``speak`` messages are ignored and only the
@@ -32,26 +37,55 @@ _IGNORE = [
     "stop.openvoiceos.stop.response",
 ]
 
+# (utterance, intent_name, handler_method)
+_INTENT_CASES = [
+    ("who are you", "WhoAreYou.intent",
+     "PersonalSkill.handle_who_are_you_intent"),
+    ("what is your name", "WhoAreYou.intent",
+     "PersonalSkill.handle_who_are_you_intent"),
+    ("what are you", "WhatAreYou.intent",
+     "PersonalSkill.handle_what_are_you_intent"),
+    ("when were you born", "WhenWereYouBorn.intent",
+     "PersonalSkill.handle_when_were_you_born_intent"),
+    ("what is your date of birth", "WhenWereYouBorn.intent",
+     "PersonalSkill.handle_when_were_you_born_intent"),
+    ("where were you born", "WhereWereYouBorn.intent",
+     "PersonalSkill.handle_where_were_you_born_intent"),
+    ("where do you come from", "WhereWereYouBorn.intent",
+     "PersonalSkill.handle_where_were_you_born_intent"),
+    ("who made you", "WhoMadeYou.intent",
+     "PersonalSkill.handle_who_made_you_intent"),
+    ("who created you", "WhoMadeYou.intent",
+     "PersonalSkill.handle_who_made_you_intent"),
+]
+
 
 class _PersonalE2EBase(TestCase):
-    """Shared fixture: one minicroft per test class with Padatious enabled."""
+    """Shared fixture: one minicroft per test class.
+
+    Subclasses set ``PIPELINE`` to the pipeline plugin id under test.
+    """
+
+    PIPELINE: str = ""  # override in subclass
 
     @classmethod
     def setUpClass(cls):
+        if cls is _PersonalE2EBase:
+            raise TestCase.skipTest(cls, "base class")
         LOG.set_level("DEBUG")
         cls.minicroft = get_minicroft([SKILL_ID])
 
     @classmethod
     def tearDownClass(cls):
-        if cls.minicroft:
+        if getattr(cls, "minicroft", None):
             cls.minicroft.stop()
         LOG.set_level("CRITICAL")
 
     def _assert_intent(self, utterance: str, intent_name: str, handler: str,
                        lang: str = "en-US") -> None:
-        session = Session(f"personal-{intent_name}")
+        session = Session(f"personal-{self.PIPELINE}-{intent_name}")
         session.lang = lang
-        session.pipeline = ["ovos-padatious-pipeline-plugin-high"]
+        session.pipeline = [self.PIPELINE]
 
         message = Message(
             "recognizer_loop:utterance",
@@ -89,74 +123,34 @@ class _PersonalE2EBase(TestCase):
         test.execute(timeout=30)
 
 
-class TestWhoAreYou(_PersonalE2EBase):
-    def test_who_are_you(self):
-        self._assert_intent(
-            "who are you",
-            "WhoAreYou.intent",
-            "PersonalSkill.handle_who_are_you_intent",
-        )
-
-    def test_what_is_your_name(self):
-        self._assert_intent(
-            "what is your name",
-            "WhoAreYou.intent",
-            "PersonalSkill.handle_who_are_you_intent",
-        )
+def _make_test_method(utterance, intent_name, handler):
+    def _test(self):
+        self._assert_intent(utterance, intent_name, handler)
+    _test.__doc__ = f"{intent_name} matched for '{utterance}'"
+    return _test
 
 
-class TestWhatAreYou(_PersonalE2EBase):
-    def test_what_are_you(self):
-        self._assert_intent(
-            "what are you",
-            "WhatAreYou.intent",
-            "PersonalSkill.handle_what_are_you_intent",
-        )
+def _attach_cases(cls):
+    for utt, intent, handler in _INTENT_CASES:
+        safe = utt.replace(" ", "_")
+        cls_method = _make_test_method(utt, intent, handler)
+        setattr(cls, f"test_{intent.replace('.', '_')}__{safe}", cls_method)
+    return cls
 
 
-class TestWhenWereYouBorn(_PersonalE2EBase):
-    def test_when_were_you_born(self):
-        self._assert_intent(
-            "when were you born",
-            "WhenWereYouBorn.intent",
-            "PersonalSkill.handle_when_were_you_born_intent",
-        )
-
-    def test_what_is_your_date_of_birth(self):
-        self._assert_intent(
-            "what is your date of birth",
-            "WhenWereYouBorn.intent",
-            "PersonalSkill.handle_when_were_you_born_intent",
-        )
+@_attach_cases
+class TestPadatiousPipeline(_PersonalE2EBase):
+    """Intents matched via the Padatious pipeline."""
+    PIPELINE = "ovos-padatious-pipeline-plugin-high"
 
 
-class TestWhereWereYouBorn(_PersonalE2EBase):
-    def test_where_were_you_born(self):
-        self._assert_intent(
-            "where were you born",
-            "WhereWereYouBorn.intent",
-            "PersonalSkill.handle_where_were_you_born_intent",
-        )
-
-    def test_where_do_you_come_from(self):
-        self._assert_intent(
-            "where do you come from",
-            "WhereWereYouBorn.intent",
-            "PersonalSkill.handle_where_were_you_born_intent",
-        )
+@_attach_cases
+class TestPadaciosoPipeline(_PersonalE2EBase):
+    """Intents matched via the Padacioso pipeline."""
+    PIPELINE = "ovos-padacioso-pipeline-plugin-high"
 
 
-class TestWhoMadeYou(_PersonalE2EBase):
-    def test_who_made_you(self):
-        self._assert_intent(
-            "who made you",
-            "WhoMadeYou.intent",
-            "PersonalSkill.handle_who_made_you_intent",
-        )
-
-    def test_who_created_you(self):
-        self._assert_intent(
-            "who created you",
-            "WhoMadeYou.intent",
-            "PersonalSkill.handle_who_made_you_intent",
-        )
+@_attach_cases
+class TestM2VPipeline(_PersonalE2EBase):
+    """Intents matched via the Model2Vec (m2v) pipeline."""
+    PIPELINE = "ovos-m2v-pipeline-high"
