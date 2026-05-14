@@ -17,11 +17,18 @@ def pytest_configure(config):  # noqa: D401
     except (ValueError, KeyError):
         return
 
-    # Enable tolerant mode + JSON report + a generous accuracy floor.
+    # Enable tolerant mode + JSON + Markdown + a generous accuracy floor.
     # Tighten the floor as the pipelines stabilise; once a green report
     # exists, switch to --ovoscope-accuracy-baseline to block regressions.
     config.option.ovoscope_accuracy_tolerant = True
     if not config.option.ovoscope_accuracy_report:
         config.option.ovoscope_accuracy_report = "intent-accuracy.json"
+    # The gh-automations ovoscope workflow already passes
+    # --ovoscope-accuracy-md=/tmp/ovoscope-intent-accuracy.md when running
+    # in CI; this default makes the local run also produce a markdown
+    # artifact next to the JSON.
+    if (hasattr(config.option, "ovoscope_accuracy_md")
+            and not config.option.ovoscope_accuracy_md):
+        config.option.ovoscope_accuracy_md = "intent-accuracy.md"
     if config.option.ovoscope_accuracy_min is None:
         config.option.ovoscope_accuracy_min = 0.5
