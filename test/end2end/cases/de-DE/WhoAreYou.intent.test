@@ -1,0 +1,9 @@
+# Utterances expected to match WhoAreYou.intent in de-DE.
+# Sourced from locale/de-DE/WhoAreYou.intent (filtered to plain forms).
+# `#` comments and blank lines are ignored.
+als wen identifizierst du dich
+erzähl mir von dir
+kannst du dich vorstellen
+wer bist du
+wie beschreibst du dich selbst
+wie heißt du

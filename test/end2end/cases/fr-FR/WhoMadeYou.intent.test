@@ -1,0 +1,8 @@
+# Utterances expected to match WhoMadeYou.intent in fr-FR.
+# Sourced from locale/fr-FR/WhoMadeYou.intent (filtered to plain forms).
+# `#` comments and blank lines are ignored.
+par qui as-tu été créé
+qui est ton créateur
+qui t'a conçu
+qui t'a créé
+qui t'a fabriqué

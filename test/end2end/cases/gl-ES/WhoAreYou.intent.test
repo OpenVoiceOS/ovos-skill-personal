@@ -1,0 +1,9 @@
+# Utterances expected to match WhoAreYou.intent in gl-ES.
+# Sourced from locale/gl-ES/WhoAreYou.intent (filtered to plain forms).
+# `#` comments and blank lines are ignored.
+cal é o teu nome
+podes presentarte
+como te describes
+como te identificas
+cóntame algo sobre ti
+quen es

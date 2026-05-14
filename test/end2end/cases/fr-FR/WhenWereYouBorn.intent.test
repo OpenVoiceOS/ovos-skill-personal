@@ -1,0 +1,9 @@
+# Utterances expected to match WhenWereYouBorn.intent in fr-FR.
+# Sourced from locale/fr-FR/WhenWereYouBorn.intent (filtered to plain forms).
+# `#` comments and blank lines are ignored.
+quand as-tu été conçu
+quand as-tu été créé
+quand as-tu été inventé
+quand es-tu apparu
+quand es-tu né
+quelle est ta date de naissance

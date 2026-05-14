@@ -1,0 +1,15 @@
+# Utterances expected to match WhatAreYou.intent in gl-ES.
+# Sourced from locale/gl-ES/WhatAreYou.intent (filtered to plain forms).
+# `#` comments and blank lines are ignored.
+que es exactamente
+cal é a túa clasificación?
+cal é a túa especie?
+cal é a túa natureza?
+como te clasificas?
+definirte
+describir o que es
+poderías definirte
+podes describir o que es
+que es?
+que tipo de cousa es
+que tipo de criatura es

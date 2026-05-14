@@ -1,0 +1,5 @@
+# Utterances expected to match WhenWereYouBorn.intent in sv-SE.
+# Sourced from locale/sv-SE/WhenWereYouBorn.intent (filtered to plain forms).
+# `#` comments and blank lines are ignored.
+när är du född
+när är du skapad

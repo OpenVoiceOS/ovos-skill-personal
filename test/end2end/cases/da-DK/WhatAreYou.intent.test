@@ -1,0 +1,15 @@
+# Utterances expected to match WhatAreYou.intent in da-DK.
+# Sourced from locale/da-DK/WhatAreYou.intent (filtered to plain forms).
+# `#` comments and blank lines are ignored.
+beskrive, hvad du er
+definere dig selv
+hvad er din art
+hvad er din klassifikation
+hvad er din natur
+hvad er du
+hvad er du præcis
+hvad klassificerer du som
+hvilken type person er du
+hvilken type ting er du
+hvilken type væsen er du
+hvordan ville du definere dig selv

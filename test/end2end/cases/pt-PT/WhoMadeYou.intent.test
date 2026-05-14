@@ -1,0 +1,15 @@
+# Utterances expected to match WhoMadeYou.intent in pt-PT.
+# Sourced from locale/pt-PT/WhoMadeYou.intent (filtered to plain forms).
+# `#` comments and blank lines are ignored.
+quem é que a criou?
+quem é que a fez?
+quem é que a inventou?
+quem é que a programou?
+quem é que o criou?
+quem é que o fez?
+quem é que o inventou?
+quem é que o programou?
+quem é que te criou?
+quem é que te fez?
+quem é que te inventou?
+quem é que te programou?

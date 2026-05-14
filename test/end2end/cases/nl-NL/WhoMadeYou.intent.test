@@ -1,0 +1,15 @@
+# Utterances expected to match WhoMadeYou.intent in nl-NL.
+# Sourced from locale/nl-NL/WhoMadeYou.intent (filtered to plain forms).
+# `#` comments and blank lines are ignored.
+door wie ben je gebouwd
+door wie ben je gemaakt
+door wie ben je geproduceerd
+door wie ben je geprogrammeerd
+door wie ben je ontworpen
+door wie ben je uitgevonden
+door wie ben jij gebouwd?
+door wie ben jij gemaakt?
+door wie ben jij geproduceerd?
+door wie ben jij geprogrammeerd?
+door wie ben jij ontworpen?
+door wie ben jij uitgevonden?

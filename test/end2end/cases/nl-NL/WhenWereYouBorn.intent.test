@@ -1,0 +1,14 @@
+# Utterances expected to match WhenWereYouBorn.intent in nl-NL.
+# Sourced from locale/nl-NL/WhenWereYouBorn.intent (filtered to plain forms).
+# `#` comments and blank lines are ignored.
+wanneer ben je ontstaan?
+wanneer ben je geboren
+wanneer ben je gebouwd
+wanneer ben je gemaakt
+wanneer ben je geprogrammeerd
+wanneer ben je ontstaan
+wanneer ben je ontworpen
+wanneer ben je uitgevonden
+wanneer verscheen je voor het eerst
+wanneer werd je eerste versie uitgebracht
+wat is je geboortedatum

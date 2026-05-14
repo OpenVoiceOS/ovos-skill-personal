@@ -1,0 +1,8 @@
+# Utterances expected to match WhatAreYou.intent in fr-FR.
+# Sourced from locale/fr-FR/WhatAreYou.intent (filtered to plain forms).
+# `#` comments and blank lines are ignored.
+comment te définirais-tu
+peux-tu te décrire
+qu'est-ce que tu es
+quel type d'assistant es-tu
+quelle est ta nature

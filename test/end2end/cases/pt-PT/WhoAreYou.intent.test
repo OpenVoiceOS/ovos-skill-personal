@@ -1,0 +1,7 @@
+# Utterances expected to match WhoAreYou.intent in pt-PT.
+# Sourced from locale/pt-PT/WhoAreYou.intent (filtered to plain forms).
+# `#` comments and blank lines are ignored.
+quem é tu?
+quem é você?
+quem és tu?
+quem és você?

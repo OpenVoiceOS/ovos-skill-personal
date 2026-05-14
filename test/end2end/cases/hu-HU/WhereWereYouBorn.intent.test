@@ -1,0 +1,5 @@
+# Utterances expected to match WhereWereYouBorn.intent in hu-HU.
+# Sourced from locale/hu-HU/WhereWereYouBorn.intent (filtered to plain forms).
+# `#` comments and blank lines are ignored.
+hol jöttél létre
+hol születtél

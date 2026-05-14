@@ -1,0 +1,8 @@
+# Utterances expected to match WhoAreYou.intent in fr-FR.
+# Sourced from locale/fr-FR/WhoAreYou.intent (filtered to plain forms).
+# `#` comments and blank lines are ignored.
+comment te décris-tu
+parle-moi de toi
+présente-toi
+quel est ton nom
+qui es-tu

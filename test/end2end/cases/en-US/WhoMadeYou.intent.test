@@ -1,0 +1,15 @@
+# Utterances expected to match WhoMadeYou.intent in en-US.
+# Sourced from locale/en-US/WhoMadeYou.intent (filtered to plain forms).
+# `#` comments and blank lines are ignored.
+by whom were you built
+by whom were you created
+by whom were you designed
+by whom were you invented
+by whom were you made
+by whom were you manufactured
+by whom were you programmed
+who built you
+who created you
+who designed you
+who has built you
+who has created you

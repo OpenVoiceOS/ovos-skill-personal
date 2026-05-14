@@ -1,0 +1,7 @@
+# Utterances expected to match WhoMadeYou.intent in ru-RU.
+# Sourced from locale/ru-RU/WhoMadeYou.intent (filtered to plain forms).
+# `#` comments and blank lines are ignored.
+кто построил тебя
+кто создал тебя
+кто сделал тебя
+кто ты сделал

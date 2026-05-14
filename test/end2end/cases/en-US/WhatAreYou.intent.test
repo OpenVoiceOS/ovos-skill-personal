@@ -1,0 +1,15 @@
+# Utterances expected to match WhatAreYou.intent in en-US.
+# Sourced from locale/en-US/WhatAreYou.intent (filtered to plain forms).
+# `#` comments and blank lines are ignored.
+can you describe what you are
+define yourself
+describe what you are
+how would you define yourself
+what are you
+what do you classify as
+what exactly are you
+what is your classification
+what is your nature
+what is your species
+what type of being are you
+what type of creature are you

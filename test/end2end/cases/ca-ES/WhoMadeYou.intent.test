@@ -1,0 +1,15 @@
+# Utterances expected to match WhoMadeYou.intent in ca-ES.
+# Sourced from locale/ca-ES/WhoMadeYou.intent (filtered to plain forms).
+# `#` comments and blank lines are ignored.
+per qui has estat construït
+per qui has estat creat
+per qui has estat dissenyat
+per qui has estat fabricat
+per qui has estat fet
+per qui has estat inventat
+per qui has estat programat
+per qui vas ser construït
+per qui vas ser creat
+per qui vas ser dissenyat
+per qui vas ser fabricat
+per qui vas ser fet

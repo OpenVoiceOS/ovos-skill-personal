@@ -1,0 +1,15 @@
+# Utterances expected to match WhoMadeYou.intent in da-DK.
+# Sourced from locale/da-DK/WhoMadeYou.intent (filtered to plain forms).
+# `#` comments and blank lines are ignored.
+af hvem blev du bygget
+af hvem blev du designet
+af hvem blev du fremstillet
+af hvem blev du lavet
+af hvem blev du opfundet
+af hvem blev du programmeret
+af hvem blev du skabt
+hvem byggede dig
+hvem designede dig
+hvem fremstillede dig
+hvem har bygget dig
+hvem har designet dig

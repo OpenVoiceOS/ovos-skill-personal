@@ -1,0 +1,15 @@
+# Utterances expected to match WhenWereYouBorn.intent in de-DE.
+# Sourced from locale/de-DE/WhenWereYouBorn.intent (filtered to plain forms).
+# `#` comments and blank lines are ignored.
+wann bist du geboren
+wann wurdest du geboren
+was ist dein geburtsdatum?
+seit wann existierst du
+seit wann gibt es dich
+wann bist du entstanden
+wann bist du zum ersten mal aufgetaucht
+wann wurdest du entworfen
+wann wurdest du erfunden
+wann wurdest du erschaffen
+wann wurdest du gebaut
+wann wurdest du gemacht

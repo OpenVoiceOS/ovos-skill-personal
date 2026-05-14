@@ -1,0 +1,12 @@
+# Utterances expected to match WhatAreYou.intent in nl-NL.
+# Sourced from locale/nl-NL/WhatAreYou.intent (filtered to plain forms).
+# `#` comments and blank lines are ignored.
+hoe zou je jezelf definiëren
+kun je beschrijven wat je bent
+wat ben je precies
+wat ben je voor product
+wat ben jij
+wat voor soort ben je
+wat voor type ding ben je?
+wat voor type persoon ben je?
+wat voor type wezen ben je?
