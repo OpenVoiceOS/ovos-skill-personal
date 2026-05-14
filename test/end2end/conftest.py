@@ -1,10 +1,24 @@
 """Local pytest config for the end2end suite.
 
-Injects the ovoscope accuracy-reporter flags only when this directory is
-under test, so the broader ``test/`` pytest run (build-tests CI) doesn't
-choke on unknown options when ovoscope's pytest plugin isn't loaded.
+Two responsibilities:
+
+1. If ovoscope isn't installed (e.g. the build-tests workflow uses only
+   the ``test`` extras and skips the ovoscope plugin), skip collecting
+   anything in this directory — otherwise pytest errors on the
+   ``from ovoscope import ...`` line in ``test_personal.py``.
+
+2. When ovoscope IS available, inject sensible defaults for the
+   accuracy reporter flags (tolerant mode + JSON + Markdown + a
+   generous floor).
 """
 from __future__ import annotations
+
+try:
+    import ovoscope  # noqa: F401
+except ImportError:  # pragma: no cover - exercised only in CI
+    # Tell pytest to skip every test module in this directory. Build-tests
+    # workflow doesn't install ovoscope; the ovoscope workflow does.
+    collect_ignore_glob = ["*.py"]
 
 
 def pytest_configure(config):  # noqa: D401
