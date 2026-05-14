@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.23a3](https://github.com/OpenVoiceOS/ovos-skill-personal/tree/0.1.23a3) (2026-05-14)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-personal/compare/0.1.23a2...0.1.23a3)
+
+**Merged pull requests:**
+
+- \[codex\] Polish fr-FR personal locale [\#101](https://github.com/OpenVoiceOS/ovos-skill-personal/pull/101) ([goldyfruit](https://github.com/goldyfruit))
+
 ## [0.1.23a2](https://github.com/OpenVoiceOS/ovos-skill-personal/tree/0.1.23a2) (2026-04-09)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-personal/compare/0.1.23a1...0.1.23a2)
