@@ -19,9 +19,7 @@ jobs:
       pre_release: true
       require_padatious: true
       require_m2v: true
-      # Shard by language — one matrix job per locale. Without this, the
-      # ~2,500 generated intent-case tests hit the 6h GH-hosted runner limit
-      # in a single job. Must match the locale folders under test/end2end/cases/.
-      # Note: TestPipelineDivergence canaries have no lang slug in their
-      # nodeid; they currently only run if the "all" entry is present.
-      langs: '["ca-ES","da-DK","de-DE","en-US","es-ES","eu-ES","fr-FR","gl-ES","hu-HU","it-IT","nl-NL","pt-BR","pt-PT","ru-RU","sv-SE"]'
+      # Generic ovoscope suite (hand-written TestPipelineDivergence canaries).
+      # The bulk file-based intent-case matrix is gated separately via the
+      # sibling intent-case-tests.yml workflow.
+      test_path: 'test/end2end/test_personal.py'

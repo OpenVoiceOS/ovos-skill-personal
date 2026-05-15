@@ -1,28 +1,19 @@
 # Copyright 2024 OpenVoiceOS
 # Licensed under the Apache License, Version 2.0
-"""End-to-end intent tests for ovos-skill-personal.
+"""Hand-curated cross-pipeline divergence canaries.
 
-Cases live as plain text under ``test/end2end/cases/<lang>/`` — see
-``ovoscope.intent_cases`` for the full file-layout contract. Adding a
-phrase, intent or whole new language is a pure text edit; no Python
-changes needed.
+These were observed by probing every utterance from the .test files
+against every pipeline/tier on this skill's locale. They document
+borderline routing differences so an upstream pipeline upgrade that
+silently changes the behaviour shows up as a failing test instead.
 
-This module is a thin caller around ``register_intent_case_tests``: it
-maps each intent name to its handler method, points at the cases
-directory, and the helper synthesises one ``TestCase`` per pipeline
-family (Padatious, Padacioso, M2V, plus the default full stack), each
-containing one method per (lang, utterance).
-
-A separate ``TestPipelineDivergence`` class hand-curates borderline
-utterances that route differently across pipelines/tiers, acting as
-regression canaries against upstream pipeline model upgrades.
+The bulk file-based intent-case suite lives in ``test_intents.py`` and
+runs under the dedicated ``intent-case-tests.yml`` CI workflow.
 """
 from pathlib import Path
 from unittest import TestCase
 
-from ovoscope import (M2V_PIPELINE, PADACIOSO_PIPELINE, PADATIOUS_PIPELINE,
-                      assert_intent_case, get_minicroft,
-                      register_intent_case_tests)
+from ovoscope import (assert_intent_case, get_minicroft)
 from ovoscope.intent_cases import IntentCase
 
 SKILL_ID = "ovos-skill-personal.openvoiceos"
@@ -35,24 +26,6 @@ HANDLERS = {
     "WhoMadeYou.intent": "PersonalSkill.handle_who_made_you_intent",
 }
 
-# Generates TestPadatious / TestPadacioso / TestM2V / TestDefaultPipeline in
-# this module's namespace, each with one method per (lang, utterance) case.
-register_intent_case_tests(
-    globals(),
-    skill_id=SKILL_ID,
-    handlers=HANDLERS,
-    cases_dir=Path(__file__).parent / "cases",
-)
-
-
-# ---------------------------------------------------------------------------
-# Hand-curated cross-pipeline divergence canaries.
-#
-# These were observed by probing every utterance from the .test files
-# against every pipeline/tier on this skill's locale. They document
-# borderline routing differences so an upstream pipeline upgrade that
-# silently changes the behaviour shows up as a failing test instead.
-# ---------------------------------------------------------------------------
 WHO = "WhoAreYou.intent"
 WHEN = "WhenWereYouBorn.intent"
 MADE = "WhoMadeYou.intent"
