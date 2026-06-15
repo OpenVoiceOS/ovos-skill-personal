@@ -1,0 +1,53 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ovos-skill-personal"
+dynamic = ["version"]
+description = "OVOS personal skill plugin"
+readme = "README.md"
+license = { text = "Apache-2.0" }
+authors = [
+    { name = "JarbasAi", email = "jarbasai@mailfence.com" }
+]
+keywords = ["ovos", "skill", "plugin"]
+classifiers = [
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python :: 3",
+]
+requires-python = ">=3.9"
+dependencies = [
+    "ovos-utils>=0.0.38",
+    "ovos-workshop>=0.0.15,<9.0.0",
+]
+
+[project.optional-dependencies]
+test = [
+    "ovoscope>=0.13.1,<1.0.0",
+    "pytest>=7.0.0,<9",
+    "pytest-timeout>=2.0.0",
+    "padacioso>=1.0.2a3",
+]
+
+[project.urls]
+Homepage = "https://github.com/OpenVoiceOS/ovos-skill-personal"
+
+[project.entry-points."ovos.plugin.skill"]
+"ovos-skill-personal.openvoiceos" = "ovos_skill_personal:PersonalSkill"
+
+[tool.setuptools.dynamic]
+version = { attr = "version.__version__" }
+
+[tool.setuptools]
+packages = ["ovos_skill_personal"]
+
+[tool.setuptools.package-dir]
+"ovos_skill_personal" = "."
+
+[tool.setuptools.package-data]
+"ovos_skill_personal" = [
+    "*.json",
+    "locale/**/*",
+    "res/**/*",
+]

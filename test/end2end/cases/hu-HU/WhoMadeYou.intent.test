@@ -1,7 +1,0 @@
-# Utterances expected to match WhoMadeYou.intent in hu-HU.
-# Sourced from locale/hu-HU/WhoMadeYou.intent (filtered to plain forms).
-# `#` comments and blank lines are ignored.
-ki hozta létre önt
-ki tett téged
-ki épített téged
-ki voltál

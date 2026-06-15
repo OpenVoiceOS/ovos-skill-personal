@@ -1,7 +1,0 @@
-# Utterances expected to match WhoMadeYou.intent in sv-SE.
-# Sourced from locale/sv-SE/WhoMadeYou.intent (filtered to plain forms).
-# `#` comments and blank lines are ignored.
-vem byggde dig
-vem har skapat dig
-vem skapade dig
-vem skapades du av

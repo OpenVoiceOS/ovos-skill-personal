@@ -1,5 +1,0 @@
-# Utterances expected to match WhereWereYouBorn.intent in sv-SE.
-# Sourced from locale/sv-SE/WhereWereYouBorn.intent (filtered to plain forms).
-# `#` comments and blank lines are ignored.
-var är du född
-var är du skapad

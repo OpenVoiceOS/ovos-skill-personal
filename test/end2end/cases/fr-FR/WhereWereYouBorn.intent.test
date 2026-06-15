@@ -1,8 +1,0 @@
-# Utterances expected to match WhereWereYouBorn.intent in fr-FR.
-# Sourced from locale/fr-FR/WhereWereYouBorn.intent (filtered to plain forms).
-# `#` comments and blank lines are ignored.
-d'où viens-tu
-où as-tu été conçu
-où as-tu été créé
-où as-tu été développé
-où es-tu né

@@ -13,13 +13,3 @@ jobs:
       python_version: '3.11'
       install_extras: 'test'
       test_path: 'test/end2end/'
-      # Install ovoscope + pipeline plugins from their `dev` branches so the
-      # new intent-case helper (TigreGotico/ovoscope#58) is available before
-      # it lands on PyPI. Drop this once an ovoscope release ships.
-      pre_release: true
-      require_padatious: true
-      require_m2v: true
-      # Generic ovoscope suite (hand-written TestPipelineDivergence canaries).
-      # The bulk file-based intent-case matrix is gated separately via the
-      # sibling intent-case-tests.yml workflow.
-      test_path: 'test/end2end/test_personal.py'
