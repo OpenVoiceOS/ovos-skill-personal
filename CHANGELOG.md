@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.24a1](https://github.com/OpenVoiceOS/ovos-skill-personal/tree/0.1.24a1) (2026-06-28)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-personal/compare/0.1.23a3...0.1.24a1)
+
+**Merged pull requests:**
+
+- fix\(deps\): allow ovos-workshop 9.x \(widen \<9.0.0 -\> \<10.0.0\) [\#104](https://github.com/OpenVoiceOS/ovos-skill-personal/pull/104) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [0.1.23a3](https://github.com/OpenVoiceOS/ovos-skill-personal/tree/0.1.23a3) (2026-05-14)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-personal/compare/0.1.23a2...0.1.23a3)
