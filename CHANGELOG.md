@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.24a2](https://github.com/OpenVoiceOS/ovos-skill-personal/tree/0.1.24a2) (2026-07-17)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-personal/compare/0.1.24a1...0.1.24a2)
+
+**Merged pull requests:**
+
+- test: add ovoscope end2end intent-routing tests [\#107](https://github.com/OpenVoiceOS/ovos-skill-personal/pull/107) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [0.1.24a1](https://github.com/OpenVoiceOS/ovos-skill-personal/tree/0.1.24a1) (2026-06-28)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-personal/compare/0.1.23a3...0.1.24a1)
