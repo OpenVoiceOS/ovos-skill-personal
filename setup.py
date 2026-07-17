@@ -84,5 +84,5 @@ setup(
             'ovos-adapt-parser>=1.0.9,<2.0.0',
         ],
     },
-    entry_points={'ovos.plugin.skill': PLUGIN_ENTRY_POINT}
+    entry_points={'opm.skill': PLUGIN_ENTRY_POINT}
 )
