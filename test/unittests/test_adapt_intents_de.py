@@ -4,8 +4,8 @@ from os.path import join, dirname
 import os
 from ovos_utils.bracket_expansion import expand_options
 
-from adapt.engine import IntentDeterminationEngine
-from adapt.intent import IntentBuilder
+from ovos_adapt.engine import IntentDeterminationEngine
+from ovos_adapt.intent import IntentBuilder
 
 
 def collect_intents(skill_file):
