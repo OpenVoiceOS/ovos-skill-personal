@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.25a1](https://github.com/OpenVoiceOS/ovos-skill-personal/tree/0.1.25a1) (2026-07-17)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-personal/compare/0.1.24a2...0.1.25a1)
+
+**Merged pull requests:**
+
+- fix: rename entry-point group to opm.skill [\#108](https://github.com/OpenVoiceOS/ovos-skill-personal/pull/108) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [0.1.24a2](https://github.com/OpenVoiceOS/ovos-skill-personal/tree/0.1.24a2) (2026-07-17)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-personal/compare/0.1.24a1...0.1.24a2)
