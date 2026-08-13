@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.26a2](https://github.com/OpenVoiceOS/ovos-skill-personal/tree/0.1.26a2) (2026-08-13)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-personal/compare/0.1.26a1...0.1.26a2)
+
+**Merged pull requests:**
+
+- test: golden-utterance e2e suite for ovos-skill-personal [\#115](https://github.com/OpenVoiceOS/ovos-skill-personal/pull/115) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [0.1.26a1](https://github.com/OpenVoiceOS/ovos-skill-personal/tree/0.1.26a1) (2026-08-10)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-personal/compare/0.1.25a2...0.1.26a1)
