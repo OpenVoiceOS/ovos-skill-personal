@@ -3,8 +3,8 @@
 The master ovoscope corpus carries no rows for
 ``ovos-skill-personal.openvoiceos``, so ``golden_utterances.jsonl`` is
 derived entirely from this skill's 5 well-populated Padatious intent files
-(``WhoAreYou``, ``WhatAreYou``, ``WhoMadeYou``, ``WhenWereYouBorn``,
-``WhereWereYouBorn``).
+(``who_are_you``, ``what_are_you``, ``who_made_you``, ``when_were_you_born``,
+``where_were_you_born``).
 
 Intent-name matching reuses ``_matches_intent`` from the existing
 ``test_intents_en_us.py`` (kept unchanged): different pipeline plugins
@@ -53,8 +53,8 @@ NEGATIVE_UTTERANCES = [
 
 def _matches_intent(msg_type: str, skill_id: str, intent_file: str) -> bool:
     # Deliberate drift tolerance: normalizes both sides to a bare lowercase
-    # token so "WhoAreYou" (PascalCase, no extension) and "who_are_you.intent"
-    # (snake_case, extension kept) are treated as equivalent -- this is an
+    # token so "who_are_you" (no extension) and "who_are_you.intent"
+    # (extension kept) are treated as equivalent -- this is an
     # intentional naming-format tolerance, not a bug.
     prefix = f"{skill_id}:"
     if not msg_type.startswith(prefix):

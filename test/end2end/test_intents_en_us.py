@@ -17,13 +17,13 @@ SKILL_ID = "ovos-skill-personal.openvoiceos"
 
 def _matches_intent(msg_type: str, skill_id: str, intent_file: str) -> bool:
     """Check whether ``msg_type`` is the matched-intent event for
-    ``intent_file`` (eg. ``WhoAreYou.intent``), tolerant of which pipeline
+    ``intent_file`` (eg. ``who_are_you.intent``), tolerant of which pipeline
     plugin matched it.
 
     Different pipeline plugins (padatious vs padacioso) register intents
     under different normalizations of the ``.intent`` filename basename —
-    observed variants include the literal PascalCase basename with no
-    extension (``WhoAreYou``) and the snake_case basename with the
+    observed variants include the bare snake_case basename with no
+    extension (``who_are_you``) and the snake_case basename with the
     extension kept (``who_are_you.intent``). Rather than pin one wire
     format (which breaks the moment the matching plugin or its version
     changes), compare case-insensitively against the basename with the
@@ -78,19 +78,19 @@ class TestPersonalIntentsEnUS(unittest.TestCase):
         self.assertTrue(any("speak" in t for t in types))
 
     def test_who_are_you(self):
-        self._assert_intent("tell me about yourself", "WhoAreYou.intent")
+        self._assert_intent("tell me about yourself", "who_are_you.intent")
 
     def test_what_are_you(self):
-        self._assert_intent("describe what you are", "WhatAreYou.intent")
+        self._assert_intent("describe what you are", "what_are_you.intent")
 
     def test_who_made_you(self):
-        self._assert_intent("by whom were you created", "WhoMadeYou.intent")
+        self._assert_intent("by whom were you created", "who_made_you.intent")
 
     def test_when_were_you_born(self):
-        self._assert_intent("what is your date of birth", "WhenWereYouBorn.intent")
+        self._assert_intent("what is your date of birth", "when_were_you_born.intent")
 
     def test_where_were_you_born(self):
-        self._assert_intent("where do you come from", "WhereWereYouBorn.intent")
+        self._assert_intent("where do you come from", "where_were_you_born.intent")
 
 
 if __name__ == "__main__":
