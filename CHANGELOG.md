@@ -1,5 +1,23 @@
 # Changelog
 
+## [0.1.26a3](https://github.com/OpenVoiceOS/ovos-skill-personal/tree/0.1.26a3) (2026-08-26)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-personal/compare/0.1.26a2...0.1.26a3)
+
+**Merged pull requests:**
+
+- translate\(kab-DZ\): update WhereWereYouBornKeyword.voc [\#128](https://github.com/OpenVoiceOS/ovos-skill-personal/pull/128) ([ovos-localize[bot]](https://github.com/apps/ovos-localize))
+- translate\(kab-DZ\): update WhenWereYouBornKeyword.voc [\#126](https://github.com/OpenVoiceOS/ovos-skill-personal/pull/126) ([ovos-localize[bot]](https://github.com/apps/ovos-localize))
+- translate\(kab-DZ\): update WhenWereYouBorn.intent [\#125](https://github.com/OpenVoiceOS/ovos-skill-personal/pull/125) ([ovos-localize[bot]](https://github.com/apps/ovos-localize))
+- translate\(kab-DZ\): update WhatAreYou.intent [\#124](https://github.com/OpenVoiceOS/ovos-skill-personal/pull/124) ([ovos-localize[bot]](https://github.com/apps/ovos-localize))
+- translate\(kab-DZ\): update what.am.i.dialog [\#123](https://github.com/OpenVoiceOS/ovos-skill-personal/pull/123) ([ovos-localize[bot]](https://github.com/apps/ovos-localize))
+- translate\(kab-DZ\): update when.was.i.born.dialog [\#122](https://github.com/OpenVoiceOS/ovos-skill-personal/pull/122) ([ovos-localize[bot]](https://github.com/apps/ovos-localize))
+- translate\(kab-DZ\): update where.was.i.born.dialog [\#121](https://github.com/OpenVoiceOS/ovos-skill-personal/pull/121) ([ovos-localize[bot]](https://github.com/apps/ovos-localize))
+- translate\(kab-DZ\): update who.am.i.dialog [\#120](https://github.com/OpenVoiceOS/ovos-skill-personal/pull/120) ([ovos-localize[bot]](https://github.com/apps/ovos-localize))
+- translate\(kab-DZ\): update who.made.me.dialog [\#119](https://github.com/OpenVoiceOS/ovos-skill-personal/pull/119) ([ovos-localize[bot]](https://github.com/apps/ovos-localize))
+- translate\(kab-DZ\): update WhoAreYouKeyword.voc [\#118](https://github.com/OpenVoiceOS/ovos-skill-personal/pull/118) ([ovos-localize[bot]](https://github.com/apps/ovos-localize))
+- translate\(kab-DZ\): update WhoMadeYou.intent [\#117](https://github.com/OpenVoiceOS/ovos-skill-personal/pull/117) ([ovos-localize[bot]](https://github.com/apps/ovos-localize))
+
 ## [0.1.26a2](https://github.com/OpenVoiceOS/ovos-skill-personal/tree/0.1.26a2) (2026-08-13)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-personal/compare/0.1.26a1...0.1.26a2)
