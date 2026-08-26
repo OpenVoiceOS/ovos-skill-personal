@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.27a1](https://github.com/OpenVoiceOS/ovos-skill-personal/tree/0.1.27a1) (2026-08-26)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-personal/compare/0.1.26a4...0.1.27a1)
+
+**Merged pull requests:**
+
+- fix: rename bare lang code locale directories [\#131](https://github.com/OpenVoiceOS/ovos-skill-personal/pull/131) ([ovos-localize[bot]](https://github.com/apps/ovos-localize))
+
 ## [0.1.26a4](https://github.com/OpenVoiceOS/ovos-skill-personal/tree/0.1.26a4) (2026-08-26)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-personal/compare/0.1.26a3...0.1.26a4)
