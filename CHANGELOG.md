@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.0a1](https://github.com/OpenVoiceOS/ovos-skill-personal/tree/1.0.0a1) (2026-08-31)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-personal/compare/0.1.27a1...1.0.0a1)
+
+**Breaking changes:**
+
+- feat!: conform locale base names to INTENT-2 §2 + consolidate en-US identity intents [\#106](https://github.com/OpenVoiceOS/ovos-skill-personal/pull/106) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [0.1.27a1](https://github.com/OpenVoiceOS/ovos-skill-personal/tree/0.1.27a1) (2026-08-26)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-personal/compare/0.1.26a4...0.1.27a1)
