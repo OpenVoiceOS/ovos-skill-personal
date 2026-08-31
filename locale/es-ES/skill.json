@@ -1,0 +1,16 @@
+{
+  "skill_id": "ovos-skill-personal.openvoiceos",
+  "source": "https://github.com/OpenVoiceOS/ovos-skill-personal",
+  "name": "Origen del asistente",
+  "description": "Conoce la historia y la personalidad del asistente. Infórmate acerca de su “nacimiento” y procedencia, y descubre la comunidad que impulsa esta inteligencia artificial de código abierto.",
+  "examples": [
+    "¿Cuándo fuiste creado?",
+    "¿Qué eres?",
+    "¿Dónde naciste?",
+    "¿Quién te creó?"
+  ],
+  "tags": [
+    "personalidad",
+    "persona"
+  ]
+}
