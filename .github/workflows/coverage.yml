@@ -14,4 +14,5 @@ jobs:
       coverage_source: 'ovos_skill_personal'
       test_path: 'test/'
       install_extras: '.[test]'
+      system_deps: 'swig libfann-dev'
       min_coverage: 0
