@@ -50,6 +50,32 @@ NEGATIVE_UTTERANCES = [
     ("search the web for cats", "ovos-skill-ddg.openvoiceos"),
 ]
 
+# Sibling-confusion negatives: utterances that belong to one of this skill's
+# own identity intents but share vocabulary ("made", "created", "born") with
+# a neighboring identity intent. Each entry asserts the utterance reaches its
+# intended intent and *none* of the other identity intents on this skill.
+SIBLING_CASES = [
+    ("when were you made", "when_were_you_born"),
+    ("who made you", "who_made_you"),
+    ("where were you made", "where_were_you_born"),
+    ("what year were you made", "when_were_you_born"),
+    ("who created you", "who_made_you"),
+    ("when were you created", "when_were_you_born"),
+    ("where were you created", "where_were_you_born"),
+    ("who is your creator", "who_made_you"),
+    ("what is your name", "who_are_you"),
+    ("who are you", "who_are_you"),
+    ("what are you", "what_are_you"),
+]
+
+ALL_INTENT_LABELS = [
+    "who_are_you",
+    "what_are_you",
+    "who_made_you",
+    "when_were_you_born",
+    "where_were_you_born",
+]
+
 
 def _matches_intent(msg_type: str, skill_id: str, intent_file: str) -> bool:
     # Deliberate drift tolerance: normalizes both sides to a bare lowercase
@@ -126,3 +152,25 @@ def test_negative_confusable_not_claimed(minicroft, negative):
     types = [m.msg_type for m in messages]
     claimed = any(t.startswith(f"{SKILL_ID}:") for t in types)
     assert not claimed, f"{text!r} (from {source_skill}) was incorrectly claimed by {SKILL_ID}: {types!r}"
+
+
+@pytest.mark.timeout(60)
+@pytest.mark.parametrize("case", SIBLING_CASES, ids=lambda c: c[0])
+def test_sibling_confusion_exclusive_routing(minicroft, case):
+    """A phrase must reach its own identity intent and no sibling intent."""
+    text, expected_label = case
+    messages = _capture(minicroft, text, f"sibling-{text}")
+    types = [m.msg_type for m in messages]
+
+    expected_file = f"{expected_label}.intent"
+    assert any(_matches_intent(t, SKILL_ID, expected_file) for t in types), (
+        f"{text!r}: expected {SKILL_ID}:{expected_file}, got {types!r}"
+    )
+
+    for sibling_label in ALL_INTENT_LABELS:
+        if sibling_label == expected_label:
+            continue
+        sibling_file = f"{sibling_label}.intent"
+        assert not any(_matches_intent(t, SKILL_ID, sibling_file) for t in types), (
+            f"{text!r}: unexpectedly also matched sibling {SKILL_ID}:{sibling_file} ({types!r})"
+        )
