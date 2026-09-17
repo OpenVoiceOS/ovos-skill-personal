@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.0.1a1](https://github.com/OpenVoiceOS/ovos-skill-personal/tree/1.0.1a1) (2026-09-17)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-personal/compare/1.0.0a1...1.0.1a1)
+
+**Merged pull requests:**
+
+- fix\(da-DK\): typos and duplicates in identity intents [\#136](https://github.com/OpenVoiceOS/ovos-skill-personal/pull/136) ([andlo](https://github.com/andlo))
+- fix: name the kab resources the way the handlers load them [\#135](https://github.com/OpenVoiceOS/ovos-skill-personal/pull/135) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [1.0.0a1](https://github.com/OpenVoiceOS/ovos-skill-personal/tree/1.0.0a1) (2026-08-31)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-personal/compare/0.1.27a1...1.0.0a1)
