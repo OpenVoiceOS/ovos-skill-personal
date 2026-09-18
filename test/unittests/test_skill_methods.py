@@ -83,18 +83,18 @@ def test_handle_who_are_you_intent_setting_overrides_ww():
     skill = PersonalSkill(settings={"assistant_name": "test"})
     skill.speak_dialog = Mock()
     skill.handle_who_are_you_intent(None)
-    skill.speak_dialog.assert_called_once_with("who.am.i", {"name": "test"})
+    skill.speak_dialog.assert_called_once_with("who_am_i", {"name": "test"})
 
 def test_handle_who_are_you_intent():
     skill = PersonalSkill()
     skill.speak_dialog = Mock()
     skill.config_core = {"listener": {"wake_word": "hey_jarbas"}}
     skill.handle_who_are_you_intent(None)
-    skill.speak_dialog.assert_called_once_with("who.am.i", {"name": "jarbas"})
+    skill.speak_dialog.assert_called_once_with("who_am_i", {"name": "jarbas"})
 
 def test_handle_who_are_you_no_ww_default():
     skill = PersonalSkill()
     skill.speak_dialog = Mock()
     skill.config_core = {"listener": {}}
     skill.handle_who_are_you_intent(None)
-    skill.speak_dialog.assert_called_once_with("who.am.i", {"name": "mycroft"})
+    skill.speak_dialog.assert_called_once_with("who_am_i", {"name": "mycroft"})

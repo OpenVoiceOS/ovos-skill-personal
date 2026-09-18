@@ -4,12 +4,10 @@ from os.path import join, dirname
 import os
 from ovos_utils.bracket_expansion import expand_parentheses, expand_options
 
-from adapt.engine import IntentDeterminationEngine
-from adapt.intent import IntentBuilder
 from ovos_skill_personal import PersonalSkill
 from ovos_plugin_manager.skills import find_skill_plugins
-from ovos_utils.messagebus import FakeBus
-from mycroft.skills.skill_loader import PluginSkillLoader, SkillLoader
+from ovos_utils.fakebus import FakeBus
+from ovos_workshop.skill_launcher import PluginSkillLoader
 
 
 class TestSkillLoading(unittest.TestCase):
