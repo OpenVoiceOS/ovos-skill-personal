@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.2a1](https://github.com/OpenVoiceOS/ovos-skill-personal/tree/1.0.2a1) (2026-09-18)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-personal/compare/1.0.1a1...1.0.2a1)
+
+**Merged pull requests:**
+
+- fix: kab vocabulary names per OVOS-INTENT-2 §2 [\#138](https://github.com/OpenVoiceOS/ovos-skill-personal/pull/138) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
 ## [1.0.1a1](https://github.com/OpenVoiceOS/ovos-skill-personal/tree/1.0.1a1) (2026-09-17)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-personal/compare/1.0.0a1...1.0.1a1)
