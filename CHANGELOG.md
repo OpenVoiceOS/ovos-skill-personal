@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.2a6](https://github.com/OpenVoiceOS/ovos-skill-personal/tree/1.0.2a6) (2026-09-26)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-personal/compare/1.0.2a5...1.0.2a6)
+
+**Merged pull requests:**
+
+- translate\(kab\): update who\_are\_you.intent [\#141](https://github.com/OpenVoiceOS/ovos-skill-personal/pull/141) ([ovos-localize[bot]](https://github.com/apps/ovos-localize))
+
 ## [1.0.2a5](https://github.com/OpenVoiceOS/ovos-skill-personal/tree/1.0.2a5) (2026-09-26)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-personal/compare/1.0.2a4...1.0.2a5)
