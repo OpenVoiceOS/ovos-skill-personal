@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.0.2a2](https://github.com/OpenVoiceOS/ovos-skill-personal/tree/1.0.2a2) (2026-09-26)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-personal/compare/1.0.2a1...1.0.2a2)
+
+**Merged pull requests:**
+
+- translate\(kab\): update skill.json [\#144](https://github.com/OpenVoiceOS/ovos-skill-personal/pull/144) ([ovos-localize[bot]](https://github.com/apps/ovos-localize))
+- translate\(kab\): update where\_was\_i\_born.dialog [\#143](https://github.com/OpenVoiceOS/ovos-skill-personal/pull/143) ([ovos-localize[bot]](https://github.com/apps/ovos-localize))
+
 ## [1.0.2a1](https://github.com/OpenVoiceOS/ovos-skill-personal/tree/1.0.2a1) (2026-09-18)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-personal/compare/1.0.1a1...1.0.2a1)
