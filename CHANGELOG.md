@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.0a1](https://github.com/OpenVoiceOS/ovos-skill-personal/tree/1.1.0a1) (2026-10-15)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-personal/compare/1.0.2a6...1.1.0a1)
+
+**Merged pull requests:**
+
+- feat\(locale\): kab where\_were\_you\_born.intent, from the locale's own lines [\#150](https://github.com/OpenVoiceOS/ovos-skill-personal/pull/150) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
 ## [1.0.2a6](https://github.com/OpenVoiceOS/ovos-skill-personal/tree/1.0.2a6) (2026-09-26)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-personal/compare/1.0.2a5...1.0.2a6)
