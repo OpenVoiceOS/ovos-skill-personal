@@ -45,7 +45,7 @@ class TestPersonalIntents(TestCase):
 
     def _run(self, intent_name, handler, utterance):
         session = Session("test")
-        session.pipeline = ["ovos-padatious-pipeline-plugin-high"]
+        session.pipeline = ["ovos-padacioso-pipeline-plugin-high"]
         message = Message("recognizer_loop:utterance",
                           {"utterances": [utterance], "lang": "en-US"},
                           {"session": session.serialize()})
@@ -59,8 +59,7 @@ class TestPersonalIntents(TestCase):
             expected_messages=[
                 message,
                 Message(f"{SKILL_ID}.activate", {}),
-                # ovos-padatious >= 2.0 emits the OVOS-INTENT-4 canonical
-                # suffixless intent id on match (folded at registration time).
+                # the OVOS-INTENT-4 canonical intent id, without the suffix
                 Message(f"{SKILL_ID}:{intent_name}", {}),
                 Message("mycroft.skill.handler.start",
                         {"name": f"PersonalSkill.{handler}"}),

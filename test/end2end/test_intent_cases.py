@@ -4,7 +4,7 @@ Positive routing:
     Each ``cases/<lang>/<Intent>.intent.test`` file lists utterances that
     must route to that intent. Every ``(lang, utterance)`` pair discovered
     via ovoscope's ``register_intent_case_tests`` becomes its own generated
-    test method on ``TestPadatious``. Adding coverage is a pure text edit to
+    test method on ``TestPadacioso``. Adding coverage is a pure text edit to
     the ``cases/`` files — no Python.
 
 Negative routing:
@@ -21,7 +21,7 @@ from ovos_bus_client.message import Message
 from ovos_bus_client.session import Session
 from ovos_utils.log import LOG
 
-from ovoscope import PADATIOUS_PIPELINE, get_minicroft
+from ovoscope import PADACIOSO_PIPELINE, get_minicroft
 from ovoscope.intent_cases import (DEFAULT_IGNORE_MESSAGES,
                                    canonical_intent,
                                    register_intent_case_tests)
@@ -50,14 +50,14 @@ IGNORED = list(DEFAULT_IGNORE_MESSAGES) + [
     "ovos.intent.handler.complete",
 ]
 
-# The skill ships padatious ``.intent`` files, so only the padatious pipeline
-# family is exercised here.
+# Each case line is a form its ``.intent`` file expands to, so the padacioso
+# pipeline family, which matches those forms, is exercised here.
 register_intent_case_tests(
     globals(),
     skill_id=SKILL_ID,
     handlers=HANDLERS,
     cases_dir=Path(__file__).parent / "cases",
-    pipelines={"Padatious": PADATIOUS_PIPELINE},
+    pipelines={"Padacioso": PADACIOSO_PIPELINE},
     ignore_messages=IGNORED,
 )
 
@@ -104,7 +104,7 @@ class TestNoIdentityIntentMatch(TestCase):
         self.minicroft.bus.on("ovos.utterance.handled", on_handled)
         try:
             session = Session("no-match")
-            session.pipeline = list(PADATIOUS_PIPELINE)
+            session.pipeline = list(PADACIOSO_PIPELINE)
             self.minicroft.bus.emit(Message(
                 "recognizer_loop:utterance",
                 {"utterances": [utterance], "lang": "en-US"},
