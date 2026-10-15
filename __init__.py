@@ -18,28 +18,28 @@ class PersonalSkill(OVOSSkill):
                                    no_network_fallback=True,
                                    no_gui_fallback=True)
 
-    @intent_handler("WhenWereYouBorn.intent")
+    @intent_handler("when_were_you_born.intent")
     def handle_when_were_you_born_intent(self, message: Message):
-        self.speak_dialog("when.was.i.born",
+        self.speak_dialog("when_was_i_born",
                           {"year": self.settings.get("year_of_birth", 2015)})
 
-    @intent_handler("WhereWereYouBorn.intent")
+    @intent_handler("where_were_you_born.intent")
     def handle_where_were_you_born_intent(self, message: Message):
-        self.speak_dialog("where.was.i.born",
+        self.speak_dialog("where_was_i_born",
                           {"location": self.settings.get("location_of_birth", "Lawrence Kansas")})
 
-    @intent_handler("WhoMadeYou.intent")
+    @intent_handler("who_made_you.intent")
     def handle_who_made_you_intent(self, message: Message):
-        self.speak_dialog("who.made.me",
+        self.speak_dialog("who_made_me",
                           {"creator": self.settings.get("creator", "OpenVoiceOS")})
 
-    @intent_handler("WhoAreYou.intent")
+    @intent_handler("who_are_you.intent")
     def handle_who_are_you_intent(self, message: Message):
         assistant_name = self.settings.get("assistant_name")
         if not assistant_name:
             assistant_name = self._parse_name_from_ww(
                 self.config_core.get("listener", {}).get("wake_word", "mycroft"))
-        self.speak_dialog("who.am.i", {"name": assistant_name})
+        self.speak_dialog("who_am_i", {"name": assistant_name})
 
     def _parse_name_from_ww(self, ww):
         if ww.startswith("o_"):  # Portuguese wakewords
@@ -51,6 +51,6 @@ class PersonalSkill(OVOSSkill):
         name = ww.lower().replace("_", " ").replace("-", " ").replace("hey ", "").replace("say ", "")
         return name
 
-    @intent_handler("WhatAreYou.intent")
+    @intent_handler("what_are_you.intent")
     def handle_what_are_you_intent(self, message: Message):
-        self.speak_dialog("what.am.i")
+        self.speak_dialog("what_am_i")

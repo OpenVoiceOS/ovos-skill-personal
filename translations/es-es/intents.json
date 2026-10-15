@@ -1,22 +1,43 @@
 {
-    "WhenWereYouBorn.intent": [
-        "cu\u00e1ndo naciste",
-        "cu\u00e1ndo fuiste creado"
-    ],
-    "WhereWereYouBorn.intent": [
-        "d\u00f3nde naciste",
-        "d\u00f3nde fuiste creado"
-    ],
-    "WhoMadeYou.intent": [
-        "qui\u00e9n te hizo",
-        "por qui\u00e9n fuiste hecho|qui\u00e9n te hizo",
-        "qui\u00e9n te cre\u00f3",
-        "qui\u00e9n te construy\u00f3"
-    ],
-    "WhatAreYou.intent": [
-        "qu\u00e9 eres"
-    ],
-    "WhoAreYou.intent": [
-        "qui\u00e9n eres"
-    ]
+  "WhenWereYouBorn.intent": [
+    "cuándo naciste",
+    "Cuándo fuiste (creado|hecho|programado|inventado|construido|diseñado)",
+    "¿Cuál es tu fecha de nacimiento?",
+    "Cuando viniste al mundo",
+    "Cuándo apareciste por primera vez",
+    "Cuándo se lanzó tu primera versión",
+    "Cuándo empezaste a existir"
+  ],
+  "WhereWereYouBorn.intent": [
+    "dónde naciste",
+    "Dónde fuiste (creado|hecho|programado|inventado|construido|diseñado)",
+    "De dónde eres",
+    "Dónde fuiste desarrollado",
+    "Dónde se lanzó tu primera versión",
+    "De dónde eres originario"
+  ],
+  "WhoMadeYou.intent": [
+    "Quién te (creó|hizo|programó|inventó|diseñó|construyó|fabricó)",
+    "Quién te ha (creado|hecho|programado|inventado|diseñado|construido|fabricado)",
+    "quién te creó",
+    "quién te construyó",
+    "Por quién fuiste  (creado|hecho|programado|inventado|diseñado|construido|fabricado)"
+  ],
+  "WhatAreYou.intent": [
+    "qué eres",
+    "Cuál es tu (clasificación|especie|naturaleza)",
+    "Cómo te clasificarías",
+    "Cómo te definirías",
+    "Qué [tipo de] (criatura|persona|cosa|ser) eres",
+    "Qué eres exactamente",
+    "Puedes describir lo que eres"
+  ],
+  "WhoAreYou.intent": [
+    "quién eres",
+    "cómo te llamas",
+    "Puedes presentarte",
+    "cuéntame sobre ti",
+    "con quién te identificas",
+    "Cómo te describirías"
+  ]
 }
