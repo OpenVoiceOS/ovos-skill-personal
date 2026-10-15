@@ -1,0 +1,20 @@
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "wat is je naam?", "lang": "nl-NL", "intent_label": "who_are_you", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "met wie praat ik?", "lang": "nl-NL", "intent_label": "who_are_you", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "stel je even voor", "lang": "nl-NL", "intent_label": "who_are_you", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "hoe noem ik jou?", "lang": "nl-NL", "intent_label": "who_are_you", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "ben je een robot of een mens?", "lang": "nl-NL", "intent_label": "what_are_you", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "wat voor machine ben je?", "lang": "nl-NL", "intent_label": "what_are_you", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "ben je een kunstmatige intelligentie?", "lang": "nl-NL", "intent_label": "what_are_you", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "leg uit wat je eigenlijk bent", "lang": "nl-NL", "intent_label": "what_are_you", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "welk bedrijf heeft je gemaakt?", "lang": "nl-NL", "intent_label": "who_made_you", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "wie zit er achter jou?", "lang": "nl-NL", "intent_label": "who_made_you", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "wie heeft jouw software geschreven?", "lang": "nl-NL", "intent_label": "who_made_you", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "wie zijn je makers?", "lang": "nl-NL", "intent_label": "who_made_you", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "hoe oud ben je?", "lang": "nl-NL", "intent_label": "when_were_you_born", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "in welk jaar ben je geboren?", "lang": "nl-NL", "intent_label": "when_were_you_born", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "wanneer ben je jarig?", "lang": "nl-NL", "intent_label": "when_were_you_born", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "hoe lang besta je al?", "lang": "nl-NL", "intent_label": "when_were_you_born", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "waar kom jij oorspronkelijk vandaan?", "lang": "nl-NL", "intent_label": "where_were_you_born", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "in welk land ben je gemaakt?", "lang": "nl-NL", "intent_label": "where_were_you_born", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "uit welke stad kom je?", "lang": "nl-NL", "intent_label": "where_were_you_born", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "wat is je plaats van herkomst?", "lang": "nl-NL", "intent_label": "where_were_you_born", "needs_manual": true, "machine_generated": true}

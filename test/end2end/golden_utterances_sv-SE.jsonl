@@ -1,0 +1,20 @@
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "vad heter du?", "lang": "sv-SE", "intent_label": "who_are_you", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "vem pratar jag med?", "lang": "sv-SE", "intent_label": "who_are_you", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "presentera dig, tack", "lang": "sv-SE", "intent_label": "who_are_you", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "säg ditt namn", "lang": "sv-SE", "intent_label": "who_are_you", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "är du en robot eller en människa?", "lang": "sv-SE", "intent_label": "what_are_you", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "vad för slags maskin är du?", "lang": "sv-SE", "intent_label": "what_are_you", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "är du en artificiell intelligens?", "lang": "sv-SE", "intent_label": "what_are_you", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "förklara vad du egentligen är", "lang": "sv-SE", "intent_label": "what_are_you", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "vilket företag har gjort dig?", "lang": "sv-SE", "intent_label": "who_made_you", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "vem ligger bakom dig?", "lang": "sv-SE", "intent_label": "who_made_you", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "vem skrev din programvara?", "lang": "sv-SE", "intent_label": "who_made_you", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "vem är din skapare?", "lang": "sv-SE", "intent_label": "who_made_you", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "hur gammal är du?", "lang": "sv-SE", "intent_label": "when_were_you_born", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "vilket år föddes du?", "lang": "sv-SE", "intent_label": "when_were_you_born", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "när fyller du år?", "lang": "sv-SE", "intent_label": "when_were_you_born", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "hur länge har du funnits?", "lang": "sv-SE", "intent_label": "when_were_you_born", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "var kommer du ifrån?", "lang": "sv-SE", "intent_label": "where_were_you_born", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "i vilket land skapades du?", "lang": "sv-SE", "intent_label": "where_were_you_born", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "från vilken stad kommer du?", "lang": "sv-SE", "intent_label": "where_were_you_born", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "var har du ditt ursprung?", "lang": "sv-SE", "intent_label": "where_were_you_born", "needs_manual": true, "machine_generated": true}

@@ -1,0 +1,20 @@
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "cuál es tu nombre?", "lang": "es-ES", "intent_label": "who_are_you", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "con quién estoy hablando?", "lang": "es-ES", "intent_label": "who_are_you", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "preséntate, por favor", "lang": "es-ES", "intent_label": "who_are_you", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "dime cómo te llamas", "lang": "es-ES", "intent_label": "who_are_you", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "eres un robot o una persona?", "lang": "es-ES", "intent_label": "what_are_you", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "qué clase de máquina eres?", "lang": "es-ES", "intent_label": "what_are_you", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "eres una inteligencia artificial?", "lang": "es-ES", "intent_label": "what_are_you", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "explícame qué eres en realidad", "lang": "es-ES", "intent_label": "what_are_you", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "qué empresa te fabricó?", "lang": "es-ES", "intent_label": "who_made_you", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "quién está detrás de ti?", "lang": "es-ES", "intent_label": "who_made_you", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "quién escribió tu software?", "lang": "es-ES", "intent_label": "who_made_you", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "quién es tu creador?", "lang": "es-ES", "intent_label": "who_made_you", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "cuántos años tienes?", "lang": "es-ES", "intent_label": "when_were_you_born", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "en qué año naciste?", "lang": "es-ES", "intent_label": "when_were_you_born", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "cuándo es tu cumpleaños?", "lang": "es-ES", "intent_label": "when_were_you_born", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "desde cuándo existes?", "lang": "es-ES", "intent_label": "when_were_you_born", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "de qué país eres?", "lang": "es-ES", "intent_label": "where_were_you_born", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "en qué ciudad te crearon?", "lang": "es-ES", "intent_label": "where_were_you_born", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "cuál es tu lugar de origen?", "lang": "es-ES", "intent_label": "where_were_you_born", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "de dónde vienes?", "lang": "es-ES", "intent_label": "where_were_you_born", "needs_manual": true, "machine_generated": true}

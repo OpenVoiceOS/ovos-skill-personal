@@ -1,0 +1,20 @@
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "zein da zure izena?", "lang": "eu-ES", "intent_label": "who_are_you", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "nola deitzen zara?", "lang": "eu-ES", "intent_label": "who_are_you", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "norekin ari naiz hizketan?", "lang": "eu-ES", "intent_label": "who_are_you", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "aurkeztu zaitez, mesedez", "lang": "eu-ES", "intent_label": "who_are_you", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "robota ala pertsona zara?", "lang": "eu-ES", "intent_label": "what_are_you", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "zer motatako makina zara?", "lang": "eu-ES", "intent_label": "what_are_you", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "adimen artifiziala zara?", "lang": "eu-ES", "intent_label": "what_are_you", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "azaldu zer zaren benetan", "lang": "eu-ES", "intent_label": "what_are_you", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "zein enpresak egin zintuen?", "lang": "eu-ES", "intent_label": "who_made_you", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "nor dago zure atzean?", "lang": "eu-ES", "intent_label": "who_made_you", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "nork idatzi zuen zure softwarea?", "lang": "eu-ES", "intent_label": "who_made_you", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "nor da zure sortzailea?", "lang": "eu-ES", "intent_label": "who_made_you", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "zenbat urte dituzu?", "lang": "eu-ES", "intent_label": "when_were_you_born", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "zein urtetan jaio zinen?", "lang": "eu-ES", "intent_label": "when_were_you_born", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "noiz da zure urtebetetzea?", "lang": "eu-ES", "intent_label": "when_were_you_born", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "noiztik existitzen zara?", "lang": "eu-ES", "intent_label": "when_were_you_born", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "nongoa zara?", "lang": "eu-ES", "intent_label": "where_were_you_born", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "zein herrialdetan sortu zintuzten?", "lang": "eu-ES", "intent_label": "where_were_you_born", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "nondik zatoz?", "lang": "eu-ES", "intent_label": "where_were_you_born", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "zein da zure jatorria?", "lang": "eu-ES", "intent_label": "where_were_you_born", "needs_manual": true, "machine_generated": true}

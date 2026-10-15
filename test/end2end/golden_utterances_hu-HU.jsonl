@@ -1,0 +1,20 @@
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "hogy hívnak?", "lang": "hu-HU", "intent_label": "who_are_you", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "mi a neved?", "lang": "hu-HU", "intent_label": "who_are_you", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "kivel beszélek?", "lang": "hu-HU", "intent_label": "who_are_you", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "mutatkozz be, kérlek", "lang": "hu-HU", "intent_label": "who_are_you", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "robot vagy vagy ember?", "lang": "hu-HU", "intent_label": "what_are_you", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "milyen gép vagy?", "lang": "hu-HU", "intent_label": "what_are_you", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "mesterséges intelligencia vagy?", "lang": "hu-HU", "intent_label": "what_are_you", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "magyarázd el, mi vagy valójában", "lang": "hu-HU", "intent_label": "what_are_you", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "melyik cég készített téged?", "lang": "hu-HU", "intent_label": "who_made_you", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "ki áll mögötted?", "lang": "hu-HU", "intent_label": "who_made_you", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "ki írta a szoftveredet?", "lang": "hu-HU", "intent_label": "who_made_you", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "ki a teremtőd?", "lang": "hu-HU", "intent_label": "who_made_you", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "hány éves vagy?", "lang": "hu-HU", "intent_label": "when_were_you_born", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "melyik évben születtél?", "lang": "hu-HU", "intent_label": "when_were_you_born", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "mikor van a születésnapod?", "lang": "hu-HU", "intent_label": "when_were_you_born", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "mióta létezel?", "lang": "hu-HU", "intent_label": "when_were_you_born", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "honnan származol?", "lang": "hu-HU", "intent_label": "where_were_you_born", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "melyik országban készítettek?", "lang": "hu-HU", "intent_label": "where_were_you_born", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "honnan jöttél?", "lang": "hu-HU", "intent_label": "where_were_you_born", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "melyik városból jöttél?", "lang": "hu-HU", "intent_label": "where_were_you_born", "needs_manual": true, "machine_generated": true}

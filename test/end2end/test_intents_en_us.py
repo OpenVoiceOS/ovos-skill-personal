@@ -53,7 +53,6 @@ class TestPersonalIntentsEnUS(unittest.TestCase):
         session = Session("test-session")
         session.pipeline = [
             "ovos-adapt-pipeline-plugin-high",
-            "ovos-padatious-pipeline-plugin-high",
             "ovos-padacioso-pipeline-plugin-high",
             "ovos-adapt-pipeline-plugin-medium",
             "ovos-padacioso-pipeline-plugin-medium",

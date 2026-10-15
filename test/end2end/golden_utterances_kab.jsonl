@@ -1,0 +1,15 @@
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "ini-yi-d isem-ik", "lang": "kab", "intent_label": "who_are_you", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "d acu i d isem-ik?", "lang": "kab", "intent_label": "who_are_you", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "qeddem-d iman-ik ma ulac aɣilif", "lang": "kab", "intent_label": "who_are_you", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "d robot i telliḍ neɣ d amdan?", "lang": "kab", "intent_label": "what_are_you", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "d acu n tmacint i telliḍ?", "lang": "kab", "intent_label": "what_are_you", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "ini-yi-d d acu i telliḍ s tidet", "lang": "kab", "intent_label": "what_are_you", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "anwi i k-id-yexdmen?", "lang": "kab", "intent_label": "who_made_you", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "anta tkebbanit i k-id-yexdmen?", "lang": "kab", "intent_label": "who_made_you", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "ini-yi-d anwa i k-id-ixedmen", "lang": "kab", "intent_label": "who_made_you", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "acḥal n leεmer-ik?", "lang": "kab", "intent_label": "when_were_you_born", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "deg acu n useggas i d-tluleḍ?", "lang": "kab", "intent_label": "when_were_you_born", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "melmi i d asfugel n tlalit-ik?", "lang": "kab", "intent_label": "when_were_you_born", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "anta tamurt i d tamurt-ik?", "lang": "kab", "intent_label": "where_were_you_born", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "deg anta tmurt i k-xedmen?", "lang": "kab", "intent_label": "where_were_you_born", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-personal.openvoiceos", "utterance": "anwa i d amkan n tlalit-ik?", "lang": "kab", "intent_label": "where_were_you_born", "needs_manual": true, "machine_generated": true}
